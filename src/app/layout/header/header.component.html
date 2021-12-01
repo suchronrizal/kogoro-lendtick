@@ -1,0 +1,23 @@
+<div class="wrap-header">
+	<div class="row">
+		<div class="col-lg-8 col-6 align-self-center" style="color: #f27b21">
+			<!-- <img src="./assets/img/brand.png" /> -->
+			<h3>KOGORO</h3>
+		</div>
+		<div class="col-lg-4 col-6 text-right" *ngIf="currentUser">
+			<div class="author">
+				<a (click)="user.toggle($event)">
+					<span>{{ currentUser?.FirstName }} {{ currentUser?.LastName }}</span>
+					<img src="./assets/img/placeholder.png" class="ml-3 avatar avatar-sm" alt="" />
+				</a>
+			</div>
+		</div>
+	</div>
+	<p-overlayPanel #user appendTo="body" [style]="{ 'margin-top': '1.4rem' }">
+		<div class="dropdown-menus">
+			<a href="" class="dropdown-item"><i class="fa fa-user"></i> Profile</a>
+			<div class="dropdown-divider"></div>
+			<a href="" class="dropdown-item"><i class="fa fa-key"></i> Logout</a>
+		</div>
+	</p-overlayPanel>
+</div>

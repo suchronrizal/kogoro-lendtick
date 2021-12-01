@@ -1,0 +1,26 @@
+.main{
+  background : url('/assets/img/11.jpg') no-repeat center;
+  background-size: cover;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  min-height: 100vh;
+  flex-grow:1;
+}
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.flexbox{
+  display: flex;
+    align-items: center;
+    justify-content: space-between;
+    >*:first-child{
+      margin-left: 0;
+    }
+}
+.custom-control{
+  padding-left: 0;
+  min-height: auto;
+}

@@ -1,0 +1,30 @@
+<div class="wrapper" [class.on]="onLayout" [class.togglemobile]="togglemobile" [class.standby]="toggle">
+	<div class="left-sidebar" (mouseenter)="onSidebar(true)" (mouseleave)="onSidebar(false)">
+		<button class="toggle" [class.active]="toggle" (click)="toggleOn()">
+			<span class="fa fa-sliders"></span>
+			<!-- <p-progressSpinner
+        [style]="{
+          width: '25px',
+          height: '25px',
+          left: '5px',
+          position: 'relative'
+        }"
+        strokeWidth="2"
+      ></p-progressSpinner> -->
+		</button>
+		<app-sidebar></app-sidebar>
+	</div>
+	<div class="main">
+		<app-header></app-header>
+		<div class="pt-5 d-flex flex-column flex-column-fluid">
+			<div class="container-fluid">
+				<p-breadcrumb [model]="breadCrumbs" [home]="home"></p-breadcrumb>
+			</div>
+		</div>
+		<div class="py-5 d-flex flex-column flex-column-fluid">
+			<div class="container-fluid"><router-outlet></router-outlet></div>
+		</div>
+		<div class="p-5 layout-footer clearfix">Powered by PT Nagara Bina Teknologi copyright 2021 ©</div>
+	</div>
+</div>
+<p-toast position="top-center" life="10000000" key="tc"></p-toast>

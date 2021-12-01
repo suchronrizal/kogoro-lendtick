@@ -1,0 +1,40 @@
+<div class="card card-custom gutter-b">
+	<div class="card-header">
+		<div class="card-title">
+			<h5 class="card-label">Tiket Pesawat</h5>
+		</div>
+	</div>
+	<div class="card-body">
+		<div class="row">
+			<div class="col-md-3">
+				<p-dropdown styleClass="form-control" placeholder="Semua Perusahaan"></p-dropdown>
+			</div>
+		</div>
+		<div class="row pt-5">
+			<div class="col-md-12">
+				<p-table [responsive]="true" [scrollable]="true" [columns]="columns" [value]="data" rows="25" [paginator]="true" [rowHover]="true">
+					<ng-template pTemplate="colgroup" let-columns>
+						<colgroup>
+							<col *ngFor="let col of columns" class="text-center" style="width: 200px" />
+						</colgroup>
+					</ng-template>
+					<ng-template pTemplate="header" let-columns>
+						<tr>
+							<th class="text-center" *ngFor="let col of columns">{{ col.header }}</th>
+						</tr>
+					</ng-template>
+					<ng-template pTemplate="body" let-rowData let-i="rowIndex" let-columns="columns">
+						<tr class="ui-selectable-row">
+							<td *ngFor="let col of columns" [ngSwitch]="col.field">
+								<span *ngSwitchCase="'createdAt'">{{ rowData.createdAt | date: 'dd MMM y H:mm' }}</span>
+								<span *ngSwitchCase="'owrDeparture'">{{ rowData.owrDeparture | date: 'dd MMM y H:mm' }}</span>
+								<span *ngSwitchCase="'paymentTotal'">Rp. {{ rowData.paymentTotal | number: '1.0-6' }}</span>
+								<span *ngSwitchDefault>{{ rowData[col.field] }}</span>
+							</td>
+						</tr>
+					</ng-template>
+				</p-table>
+			</div>
+		</div>
+	</div>
+</div>

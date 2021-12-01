@@ -1,0 +1,79 @@
+<div class="card card-custom gutter-b">
+	<div class="card-header">
+		<div class="card-title">
+			<h5 class="card-label">Tipe Pinjaman</h5>
+		</div>
+	</div>
+	<div class="card-body">
+		<div class="row">
+			<div class="col-md-9">
+				<button pButton (click)="displayForm = true" class="ui-button ui-button-raised" icon="pi pi-plus" label="Tambah Tipe"></button>
+			</div>
+			<div class="col-md-3">
+				<input pInputText class="form-control" placeholder="Search Daftar Perusahaan" />
+			</div>
+		</div>
+		<div class="row pt-5">
+			<div class="col-md-12">
+				<p-table [columns]="columns" [value]="data" rows="25" [paginator]="true">
+					<ng-template pTemplate="header">
+						<tr>
+							<th *ngFor="let col of columns">
+								{{ col.header }}
+							</th>
+							<th width="200px" class="text-center">Options</th>
+						</tr>
+					</ng-template>
+					<ng-template pTemplate="body" let-rowData let-i="rowIndex" let-columns="columns">
+						<tr>
+							<td *ngFor="let col of columns">
+								<button pButton icon="pi pi-search" class="ui-button ui-button-rounded ui-button-outlined"></button>
+								{{ rowData[col.field] }}
+							</td>
+							<td class="text-center"><button pButton type="button" (click)="displayForm = true" class="ui-button-primary" icon="pi pi-cog"></button></td>
+						</tr>
+					</ng-template>
+				</p-table>
+			</div>
+		</div>
+	</div>
+</div>
+<p-dialog [(visible)]="displayForm" header="Form Daftar Perusahaan" [style]="{ width: '60vw' }" [modal]="true" [draggable]="false" [resizable]="false">
+	<div class="form-row">
+		<div class="col-md-4">
+			<label for="idTipePinjaman">ID Tipe Pinjaman</label>
+			<input type="text" pInputText class="form-control" placeholder="ID Tipe Pinjaman" />
+		</div>
+		<div class="col-md-4">
+			<label for="idTipePinjaman">Tipe Pinjaman</label>
+			<input type="text" pInputText class="form-control" placeholder="Tipe Pinjaman" />
+		</div>
+		<div class="col-md-4">
+			<label for="idTipePinjaman">Icon Pinjaman</label>
+			<input type="text" pInputText class="form-control" placeholder="Icon Pinjaman" />
+		</div>
+	</div>
+
+	<table class="table table-borderless table-striped">
+		<thead>
+			<tr>
+				<th>&nbsp;</th>
+				<th>Golongan</th>
+				<th>Bunga</th>
+				<th>Plafond</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr *ngFor="let item of dataGolongan; let i = index">
+				<td><p-checkbox name="chk{{ i }}" [value]="item.status" [(ngModel)]="item.status" [binary]="true"> </p-checkbox></td>
+				<td class="text-center">{{ item.golongan }}</td>
+				<td><input type="text" name="bunga{{ i }}" class="form-control" [(ngModel)]="item.bunga" [disabled]="!item.status" placeholder="Bunga" /></td>
+				<td><p-spinner name="plafond{{ i }}" inputStyleClass="form-control" [(ngModel)]="item.plafond" [disabled]="!item.status" [min]="0" placeholder="Plafond"></p-spinner></td>
+			</tr>
+		</tbody>
+	</table>
+	<p-footer>
+		<button type="button" pButton icon="pi pi-check" (click)="displayForm = false" label="Yes"></button>
+		<button type="button" pButton icon="pi pi-times" (click)="displayForm = false" label="No" class="ui-button-secondary"></button>
+	</p-footer>
+</p-dialog>

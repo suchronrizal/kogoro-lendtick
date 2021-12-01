@@ -1,0 +1,49 @@
+<div class="row">
+	<div class="col-md-12">
+		<table class="table table-borderless table-striped">
+			<tbody>
+				<tr>
+					<td width="25%" class="font-bold">No Anggota</td>
+					<td>345345</td>
+				</tr>
+				<tr>
+					<td class="font-bold">Nama</td>
+					<td>Zian Alfarisi</td>
+				</tr>
+				<tr>
+					<td class="font-bold">Tanggal Lahir</td>
+					<td>17 - Januari - 1995</td>
+				</tr>
+				<tr>
+					<td class="font-bold">Templat Lahir</td>
+					<td>Sidoarjo</td>
+				</tr>
+				<tr>
+					<td class="font-bold">Agama</td>
+					<td>Islam</td>
+				</tr>
+				<tr>
+					<td class="font-bold">Jenis Kelamin</td>
+					<td>Laki-Laki</td>
+				</tr>
+				<tr>
+					<td class="font-bold">No KTP</td>
+					<td>3515162203950002</td>
+				</tr>
+				<tr>
+					<td class="font-bold">No Phone</td>
+					<td>081234543455</td>
+				</tr>
+				<tr>
+					<td class="font-bold">Status Perkawinan</td>
+					<td>Menikah</td>
+				</tr>
+			</tbody>
+		</table>
+		<div class="pt-5 d-flex justify-content-end">
+			<button *ngIf="isRegistration" pButton class="ui-button-raised ui-button-danger" label="Terminate Zian Alfarisi"></button>
+			<button *ngIf="!isRegistration" pButton class="ui-button-raised mr-2" label="Approve" icon="pi pi-check"></button>
+			<button *ngIf="!isRegistration" pButton class="ui-button-raised ui-button-secondary" label="Reject" icon="pi pi-times"></button>
+		</div>
+	</div>
+</div>

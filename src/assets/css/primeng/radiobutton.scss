@@ -1,0 +1,77 @@
+body .ui-radiobutton {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0;
+  width: 20px;
+  height: 20px;
+}
+body .ui-radiobutton .ui-radiobutton-box {
+  border: 1px solid #ced4da;
+  background-color: #ffffff;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  position: relative;
+  -moz-transition: background-color 0.2s, border-color 0.2s, box-shadow 0.2s;
+  -o-transition: background-color 0.2s, border-color 0.2s, box-shadow 0.2s;
+  -webkit-transition: background-color 0.2s, border-color 0.2s, box-shadow 0.2s;
+  transition: background-color 0.2s, border-color 0.2s, box-shadow 0.2s;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+body
+  .ui-radiobutton
+  .ui-radiobutton-box:not(.ui-state-disabled):not(.ui-state-active):hover {
+  border-color: #212121;
+}
+body .ui-radiobutton .ui-radiobutton-box.ui-state-focus {
+  outline: 0 none;
+  outline-offset: 0;
+  -webkit-box-shadow: 0 0 0 0.2em rgb(255, 201, 99);
+  -moz-box-shadow: 0 0 0 0.2em rgb(255, 201, 99);
+  box-shadow: 0 0 0 0.2em rgb(255, 201, 99);
+  border-color: $color-primary;
+}
+body .ui-radiobutton .ui-radiobutton-box.ui-state-active {
+  border-color: $color-primary;
+  background-color: $color-primary;
+  color: #ffffff;
+}
+body .ui-radiobutton .ui-radiobutton-box.ui-state-active .ui-radiobutton-icon {
+  background-color: #ffffff;
+}
+body
+  .ui-radiobutton
+  .ui-radiobutton-box.ui-state-active:not(.ui-state-disabled):hover {
+  border-color: $color-primary;
+  background-color: $color-primary;
+  color: #ffffff;
+}
+body .ui-radiobutton .ui-radiobutton-box .ui-radiobutton-icon {
+  background: transparent;
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -5px;
+  margin-top: -5px;
+  -moz-transition: background-color 0.2s;
+  -o-transition: background-color 0.2s;
+  -webkit-transition: background-color 0.2s;
+  transition: background-color 0.2s;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+body .ui-radiobutton .ui-radiobutton-box .ui-radiobutton-icon:before {
+  display: none;
+}
+body .ui-radiobutton-label {
+  margin: 0 0 0 0.5em;
+}
+body p-radiobutton.ng-dirty.ng-invalid .ui-radiobutton-box {
+  border: 1px solid #a80000;
+}

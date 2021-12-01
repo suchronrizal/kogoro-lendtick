@@ -1,0 +1,46 @@
+<div class="card card-custom gutter-b">
+	<div class="card-header">
+		<div class="card-title">
+			<h5 class="card-label">Master Document</h5>
+		</div>
+	</div>
+	<div class="card-body">
+		<div class="row">
+			<div class="col-md-9">
+				<button pButton (click)="displayForm = true; objDetail = {}; isEdit = false" class="ui-button ui-button-raised" label="Daftar Baru"></button>
+			</div>
+			<div class="col-md-3">
+				<input pInputText class="form-control" placeholder="Search Daftar Perusahaan" />
+			</div>
+		</div>
+		<div class="row pt-5">
+			<div class="col-md-12">
+				<p-table [responsive]="true" [columns]="columns" [value]="data" rows="25" [paginator]="true">
+					<ng-template pTemplate="header" let-columns>
+						<tr>
+							<th class="text-center" width="10%">Action</th>
+							<th class="text-center" *ngFor="let col of columns">{{ col.header }}</th>
+						</tr></ng-template
+					>
+
+					<ng-template pTemplate="body" let-rowData let-i="rowIndex" let-columns="columns">
+						<tr>
+							<td class="text-center"><button pButton type="button" (click)="displayForm = true; showDetail(rowData)" class="ui-button-primary" icon="pi pi-cog"></button></td>
+							<td *ngFor="let col of columns">{{ rowData[col.field] }}</td>
+						</tr>
+					</ng-template>
+				</p-table>
+			</div>
+		</div>
+	</div>
+</div>
+<p-dialog [(visible)]="displayForm" header="Form Daftar Perusahaan" [style]="{ width: '30vw' }" [modal]="true" [draggable]="false" [resizable]="false">
+	<div class="field">
+		<label for="documentName">Document Name</label>
+		<input pInputText class="form-control" [(ngModel)]="objDetail.document_name" type="text" />
+	</div>
+	<p-footer>
+		<button type="button" pButton icon="pi pi-check" (click)="displayForm = false" [label]="isEdit ? 'Update' : 'Daftar'"></button>
+		<button type="button" pButton icon="pi pi-times" (click)="displayForm = false" label="No" class="ui-button-secondary"></button>
+	</p-footer>
+</p-dialog>

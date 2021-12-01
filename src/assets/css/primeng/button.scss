@@ -1,0 +1,209 @@
+body .ui-button {
+	margin: 0;
+	color: #ffffff;
+	background-color: $color-primary;
+	border: 1px solid $color-primary;
+	border-radius: 4px;
+	font-size: 14px;
+	-moz-transition: background-color 0.2s, box-shadow 0.2s;
+	-o-transition: background-color 0.2s, box-shadow 0.2s;
+	-webkit-transition: background-color 0.2s, box-shadow 0.2s;
+	transition: background-color 0.2s, box-shadow 0.2s;
+}
+body .ui-button:enabled:hover {
+	background-color: $color-primary-hover;
+	color: #ffffff;
+	border-color: $color-primary-hover;
+}
+body .ui-button:enabled:focus {
+	outline: 0 none;
+	outline-offset: 0px;
+	-webkit-box-shadow: 0 0 0 0.2em $color-focus;
+	-moz-box-shadow: 0 0 0 0.2em $color-focus;
+	box-shadow: 0 0 0 0.2em $color-focus;
+}
+body .ui-button:enabled:active {
+	background-color: $color-active;
+	color: #ffffff;
+	border-color: $color-primary-hover;
+}
+body .ui-button.ui-button-text-only .ui-button-text {
+	padding: 0.629em 1em;
+}
+body .ui-button.ui-button-text-icon-left .ui-button-text {
+	padding: 0.629em 1em 0.629em 2em;
+}
+body .ui-button.ui-button-text-icon-right .ui-button-text {
+	padding: 0.629em 2em 0.629em 1em;
+}
+body .ui-button.ui-button-icon-only {
+	width: 2.357em;
+}
+body .ui-button.ui-button-icon-only .ui-button-text {
+	padding: 0.629em;
+}
+body .ui-button.ui-button-raised {
+	-webkit-box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.15);
+	-moz-box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.15);
+	box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.15);
+}
+body .ui-button.ui-button-rounded {
+	border-radius: 50%;
+	height: 2.357rem;
+}
+body .ui-fluid .ui-button-icon-only {
+	width: 2.357em;
+}
+@media (max-width: 640px) {
+	body .ui-buttonset:not(.ui-splitbutton) .ui-button {
+		margin-bottom: 1px;
+		-moz-border-radius: 3px;
+		-webkit-border-radius: 3px;
+		border-radius: 3px;
+	}
+}
+body .ui-splitbutton.ui-buttonset .ui-button {
+	border: 1px solid transparent;
+}
+body .ui-splitbutton.ui-buttonset .ui-menu {
+	min-width: 100%;
+}
+body .ui-button.ui-state-default.ui-button-secondary,
+body .ui-buttonset.ui-button-secondary > .ui-button.ui-state-default {
+	color: #333333;
+	background-color: #f4f4f4;
+	border: 1px solid #f4f4f4;
+}
+body .ui-button.ui-state-default.ui-button-secondary:enabled:hover,
+body .ui-buttonset.ui-button-secondary > .ui-button.ui-state-default:enabled:hover {
+	background-color: #c8c8c8;
+	color: #333333;
+	border-color: #c8c8c8;
+}
+body .ui-button.ui-state-default.ui-button-secondary:enabled:focus,
+body .ui-buttonset.ui-button-secondary > .ui-button.ui-state-default:enabled:focus {
+	-webkit-box-shadow: 0 0 0 0.2em #8dcdff;
+	-moz-box-shadow: 0 0 0 0.2em #8dcdff;
+	box-shadow: 0 0 0 0.2em #8dcdff;
+}
+body .ui-button.ui-state-default.ui-button-secondary:enabled:active,
+body .ui-buttonset.ui-button-secondary > .ui-button.ui-state-default:enabled:active {
+	background-color: #a0a0a0;
+	color: #333333;
+	border-color: #a0a0a0;
+}
+body .ui-button.ui-state-default.ui-button-info,
+body .ui-buttonset.ui-button-info > .ui-button.ui-state-default {
+	color: #ffffff;
+	background-color: $color-primary;
+	border: 1px solid $color-primary;
+}
+body .ui-button.ui-state-default.ui-button-info:enabled:hover,
+body .ui-buttonset.ui-button-info > .ui-button.ui-state-default:enabled:hover {
+	background-color: $color-primary-hover;
+	color: #ffffff;
+	border-color: $color-primary-hover;
+}
+body .ui-button.ui-state-default.ui-button-info:enabled:focus,
+body .ui-buttonset.ui-button-info > .ui-button.ui-state-default:enabled:focus {
+	-webkit-box-shadow: 0 0 0 0.2em #8dcdff;
+	-moz-box-shadow: 0 0 0 0.2em #8dcdff;
+	box-shadow: 0 0 0 0.2em #8dcdff;
+}
+body .ui-button.ui-state-default.ui-button-info:enabled:active,
+body .ui-buttonset.ui-button-info > .ui-button.ui-state-default:enabled:active {
+	background-color: #005b9f;
+	color: #ffffff;
+	border-color: #005b9f;
+}
+body .ui-button.ui-state-default.ui-button-success,
+body .ui-buttonset.ui-button-success > .ui-button.ui-state-default {
+	color: #ffffff;
+	background-color: #34a835;
+	border: 1px solid #34a835;
+}
+body .ui-button.ui-state-default.ui-button-success:enabled:hover,
+body .ui-buttonset.ui-button-success > .ui-button.ui-state-default:enabled:hover {
+	background-color: #107d11;
+	color: #ffffff;
+	border-color: #107d11;
+}
+body .ui-button.ui-state-default.ui-button-success:enabled:focus,
+body .ui-buttonset.ui-button-success > .ui-button.ui-state-default:enabled:focus {
+	-webkit-box-shadow: 0 0 0 0.2em #aae5aa;
+	-moz-box-shadow: 0 0 0 0.2em #aae5aa;
+	box-shadow: 0 0 0 0.2em #aae5aa;
+}
+body .ui-button.ui-state-default.ui-button-success:enabled:active,
+body .ui-buttonset.ui-button-success > .ui-button.ui-state-default:enabled:active {
+	background-color: #0c6b0d;
+	color: #ffffff;
+	border-color: #0c6b0d;
+}
+body .ui-button.ui-state-default.ui-button-warning,
+body .ui-buttonset.ui-button-warning > .ui-button.ui-state-default {
+	color: #333333;
+	background-color: #ffba01;
+	border: 1px solid #ffba01;
+}
+body .ui-button.ui-state-default.ui-button-warning:enabled:hover,
+body .ui-buttonset.ui-button-warning > .ui-button.ui-state-default:enabled:hover {
+	background-color: #ed990b;
+	color: #333333;
+	border-color: #ed990b;
+}
+body .ui-button.ui-state-default.ui-button-warning:enabled:focus,
+body .ui-buttonset.ui-button-warning > .ui-button.ui-state-default:enabled:focus {
+	-webkit-box-shadow: 0 0 0 0.2em #ffeab4;
+	-moz-box-shadow: 0 0 0 0.2em #ffeab4;
+	box-shadow: 0 0 0 0.2em #ffeab4;
+}
+body .ui-button.ui-state-default.ui-button-warning:enabled:active,
+body .ui-buttonset.ui-button-warning > .ui-button.ui-state-default:enabled:active {
+	background-color: #d38b10;
+	color: #333333;
+	border-color: #d38b10;
+}
+body .ui-button.ui-state-default.ui-button-danger,
+body .ui-buttonset.ui-button-danger > .ui-button.ui-state-default {
+	color: #ffffff;
+	background-color: #e91224;
+	border: 1px solid #e91224;
+}
+body .ui-button.ui-state-default.ui-button-danger:enabled:hover,
+body .ui-buttonset.ui-button-danger > .ui-button.ui-state-default:enabled:hover {
+	background-color: #c01120;
+	color: #ffffff;
+	border-color: #c01120;
+}
+body .ui-button.ui-state-default.ui-button-danger:enabled:focus,
+body .ui-buttonset.ui-button-danger > .ui-button.ui-state-default:enabled:focus {
+	-webkit-box-shadow: 0 0 0 0.2em #f9b4ba;
+	-moz-box-shadow: 0 0 0 0.2em #f9b4ba;
+	box-shadow: 0 0 0 0.2em #f9b4ba;
+}
+body .ui-button.ui-state-default.ui-button-danger:enabled:active,
+body .ui-buttonset.ui-button-danger > .ui-button.ui-state-default:enabled:active {
+	background-color: #a90000;
+	color: #ffffff;
+	border-color: #a90000;
+}
+body .ui-splitbutton.ui-buttonset .ui-button {
+	border: 1px solid transparent;
+}
+body .ui-splitbutton.ui-buttonset .ui-menu {
+	min-width: 100%;
+}
+body .ui-fileupload-choose {
+	color: #333333 !important;
+	background-color: #f4f4f4 !important;
+	border: 1px solid #f4f4f4 !important;
+}
+body .ui-button.btn-small.ui-button-text-only .ui-button-text {
+	padding: 0.229em 0.6em !important;
+}
+.ui-button-outlined {
+	background-color: transparent !important;
+	color: $color-primary !important;
+	border: 1px solid #fff !important;
+}

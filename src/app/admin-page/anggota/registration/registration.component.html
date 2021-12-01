@@ -1,0 +1,69 @@
+<div class="card card-custom gutter-b">
+	<div class="card-header">
+		<div class="card-title">
+			<h5 class="card-label">Registrasi</h5>
+		</div>
+	</div>
+	<div class="card-body">
+		<div class="row py-2">
+			<div class="col-md-3 col-sm-12">
+				<input pInputText class="form-control" placeholder="Filter By Nama" />
+			</div>
+			<div class="col-md-3 col-sm-12">
+				<p-dropdown styleClass="form-control" placeholder="Semua Perusahaan"></p-dropdown>
+			</div>
+			<div class="col-md-3 col-sm-12">
+				<p-dropdown styleClass="form-control" placeholder="Semua Golongan"></p-dropdown>
+			</div>
+			<div class="col-md-3 col-sm-12">
+				<p-multiSelect [options]="columns" styleClass="form-control" [(ngModel)]="selectedColumns" (onChange)="changeColumn($event)" optionLabel="header" selectedItemsLabel="{0} Column Active" defaultLabel="Choose Columns"> </p-multiSelect>
+			</div>
+		</div>
+		<div class="row py-2">
+			<div class="col-md-6 col-sm-12">
+				<p-calendar inputStyleClass="form-control" placeholder="Tanggal Masuk" selectionMode="range" readonlyInput="true"></p-calendar>
+			</div>
+			<div class="col-md-6 col-sm-12">
+				<p-calendar inputStyleClass="form-control" placeholder="Tanggal Pengajuan" selectionMode="range" readonlyInput="true"></p-calendar>
+			</div>
+		</div>
+		<div class="row pt-5">
+			<div class="col-md-12">
+				<p-table [responsive]="true" [(selection)]="selectedColumns" [value]="data" rows="25" [paginator]="true" [rowHover]="true">
+					<ng-template pTemplate="header" let-columns>
+						<tr>
+							<th class="text-center" width="60px">No</th>
+							<th *ngFor="let col of selectedColumns" class="text-center">{{ col.header }}</th>
+							<th class="text-center">Options</th>
+						</tr>
+					</ng-template>
+					<ng-template pTemplate="body" let-rowData let-i="rowIndex" let-columns="columns">
+						<tr class="ui-selectable-row">
+							<td class="text-center">{{ i + 1 }}</td>
+							<td *ngFor="let col of selectedColumns" [ngClass]="{ 'text-center': col.field == 'is_new_user' }" [ngSwitch]="col.field">
+								<span *ngSwitchDefault>{{ rowData[col.field] }}</span>
+								<span *ngSwitchCase="'is_new_user'">
+									<span *ngIf="rowData.is_new_user == 1" class="label-status label-status-success">Active</span>
+									<span *ngIf="rowData.is_new_user == 0" class="label-status label-status-danger">Non Active</span>
+								</span>
+							</td>
+							<td class="text-center"><button pButton type="button" (click)="displayForm = true" class="ui-button-primary" icon="pi pi-cog"></button></td>
+						</tr>
+					</ng-template>
+				</p-table>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- detail personal -->
+<p-dialog [(visible)]="displayForm" header="Detail Member" [style]="{ width: '80vw' }" [modal]="true" [draggable]="false" [resizable]="false">
+	<p-tabView orientation="left">
+		<p-tabPanel header="Profile">
+			<profile [isRegistration]="true"></profile>
+		</p-tabPanel>
+		<p-tabPanel header="Company"> <company></company> </p-tabPanel>
+		<p-tabPanel header="Bank"><bank></bank></p-tabPanel>
+		<p-tabPanel header="Document"><document [isShow]="true"></document></p-tabPanel>
+		<p-tabPanel header="Salary"><salary></salary></p-tabPanel>
+	</p-tabView>
+</p-dialog>

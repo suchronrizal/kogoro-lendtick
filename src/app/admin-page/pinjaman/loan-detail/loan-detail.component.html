@@ -1,0 +1,190 @@
+<div class="row">
+	<div class="col-md-12">
+		<div class="card card-custom gutter-b">
+			<div class="card-body">
+				<div class="form-row mb-3">
+					<div class="col-md-2">Nama</div>
+					<div class="col-md-4">Lutfian Hasan Ahmad Rizaldi</div>
+				</div>
+				<div class="form-row mb-3">
+					<div class="col-md-2">NRP</div>
+					<div class="col-md-4">43534</div>
+				</div>
+				<div class="form-row mb-3">
+					<div class="col-md-2">Perusahaan</div>
+					<div class="col-md-6">AI - DAIHATSU SALES OPERATION, PT.</div>
+				</div>
+				<div class="form-row mb-3 items-align-center">
+					<div class="col-md-2">Golongan</div>
+					<div class="col-md-4"><p-dropdown styleClass="form-control" placeholder="Golongan"></p-dropdown></div>
+					<div class="form-group pl-3 p-0 col-4 small text-muted">
+						Last Updated
+						<div>02 Jun 2021 12:51</div>
+					</div>
+				</div>
+				<div class="form-row mb-3 items-align-center">
+					<div class="col-md-2">Take Home Pay</div>
+					<div class="col-md-4"><p-spinner inputStyleClass="form-control"></p-spinner></div>
+					<div class="form-group pl-3 p-0 col-4 small text-muted">
+						Last Updated
+						<div>02 Jun 2021 12:51</div>
+					</div>
+				</div>
+				<div class="form-row pt-5">
+					<button pButton label="Update" class="ui-button-default ui-button-raised mr-3" icon="pi pi-pencil"></button>
+					<button pButton (click)="displayForm = true" label="Detail" class="ui-button-secondary ui-button-raised" icon="pi pi-eye"></button>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="row py-5">
+	<div class="col-md-6 col-sm-12">
+		<div class="card card-custom gutter-b">
+			<div class="card-header">
+				<div class="card-title">
+					<h5 class="card-label">Detail Loan</h5>
+				</div>
+			</div>
+			<div class="card-body">
+				<table class="table table-borderless">
+					<tbody>
+						<tr>
+							<td class="border-top-0 pt-0" style="width: 200px">No Pinjaman</td>
+							<td class="border-top-0 pt-0" style="width: 10px">:</td>
+							<td class="border-top-0 pt-0">KAI-20210911-00001</td>
+						</tr>
+						<tr>
+							<td>Tipe Pinjaman</td>
+							<td>:</td>
+							<td>Multiguna</td>
+						</tr>
+						<tr>
+							<td>Pinjaman Diajukan</td>
+							<td>:</td>
+							<td>Rp 25,000,000</td>
+						</tr>
+						<tr>
+							<td>Pinjaman Disetujui</td>
+							<td>:</td>
+							<td>Rp 25,000,000</td>
+						</tr>
+						<tr>
+							<td>Pinjaman Diterima</td>
+							<td>:</td>
+							<td>Rp 23,381,150</td>
+						</tr>
+						<tr>
+							<td>Total Pinjaman</td>
+							<td>:</td>
+							<td>Rp 29,250,000</td>
+						</tr>
+						<tr>
+							<td>Lama Angsuran</td>
+							<td>:</td>
+							<td>24</td>
+						</tr>
+						<tr>
+							<td>Cicilan per bulan</td>
+							<td>:</td>
+							<td>Rp 1,218,750</td>
+						</tr>
+						<tr>
+							<td>Bunga (%)</td>
+							<td>:</td>
+							<td>8.5</td>
+						</tr>
+						<tr>
+							<td>Bunga Total</td>
+							<td>:</td>
+							<td>Rp 4,250,000</td>
+						</tr>
+						<tr>
+							<td>Voucher</td>
+							<td>:</td>
+							<td>0</td>
+						</tr>
+						<tr>
+							<td>Tgl Pencairan</td>
+							<td>:</td>
+							<td></td>
+						</tr>
+						<tr>
+							<td>Tgl Angsuran Terakhir</td>
+							<td>:</td>
+							<td></td>
+						</tr>
+						<tr>
+							<td>Total offset</td>
+							<td>:</td>
+							<td>Rp 0</td>
+						</tr>
+					</tbody>
+				</table>
+				<div class="pt-5"><button pButton (click)="showDocument = true" class="ui-button-raised ui-button-primary" label="Lihat Document" icon="pi pi-eye"></button></div>
+			</div>
+		</div>
+	</div>
+	<div class="col-md-6 col-sm-12">
+		<div class="card card-custom gutter-b">
+			<div class="card-header">
+				<div class="card-title">
+					<h5 class="card-label">Summary</h5>
+				</div>
+			</div>
+			<div class="card-body">
+				<table class="table table-borderless">
+					<tbody>
+						<tr>
+							<td>Total cicilan Perbulan</td>
+							<td>:</td>
+							<td style="width: 130px">Rp 0</td>
+						</tr>
+						<tr>
+							<td>Jumlah Saldo Pinjaman</td>
+							<td>:</td>
+							<td>Rp 0</td>
+						</tr>
+						<tr>
+							<td>Total cicilan perbulan setelah pinjaman ini</td>
+							<td>:</td>
+							<td>Rp 1,218,750</td>
+						</tr>
+						<tr>
+							<td>Prosesentase kemampuan angsur setelah pinjaman</td>
+							<td>:</td>
+							<td>100.00%</td>
+						</tr>
+						<tr>
+							<td>Kemampuan Angsuran</td>
+							<td>:</td>
+							<td>Rp 407,100</td>
+						</tr>
+						<tr>
+							<td>Total Take Home Pay</td>
+							<td>:</td>
+							<td>Rp 5,419,500</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- show document -->
+<p-dialog [(visible)]="showDocument" header="Dokumen" [style]="{ width: '80vw' }" [modal]="true" [draggable]="false" [resizable]="false">
+	<document [isShow]="isShow"></document>
+</p-dialog>
+
+<!-- detail personal -->
+<p-dialog [(visible)]="displayForm" header="Detail Member" [style]="{ width: '80vw' }" [modal]="true" [draggable]="false" [resizable]="false">
+	<p-tabView orientation="left">
+		<p-tabPanel header="Profile">
+			<profile></profile>
+		</p-tabPanel>
+		<p-tabPanel header="Company"> <company></company> </p-tabPanel>
+		<p-tabPanel header="Bank"><bank></bank></p-tabPanel>
+		<p-tabPanel header="Document"><document [isShow]="true"></document></p-tabPanel>
+		<p-tabPanel header="Salary"><salary></salary></p-tabPanel>
+	</p-tabView>
+</p-dialog>

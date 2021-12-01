@@ -1,0 +1,19 @@
+body .ui-overlaypanel {
+	background-color: #ffffff;
+	color: #333333;
+	padding: 0;
+	border: 1px solid #c8c8c8;
+}
+.ui-overlaypanel::before {
+	left: 11.25em;
+	border-bottom-color: #efefef !important;
+	display: table;
+}
+.ui-overlaypanel::after {
+	left: 11.25em;
+}
+
+.ui-overlaypanel {
+	border: 1px solid #efefef !important;
+	box-shadow: 0 2px 25px rgb(0 0 0 / 7%);
+}

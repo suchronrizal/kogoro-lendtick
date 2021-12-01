@@ -1,0 +1,31 @@
+body .ui-inputtext {
+	font-size: 14px;
+	color: #333333;
+	background: #ffffff;
+	padding: 0.429em;
+	border: 1px solid #cecece;
+	-moz-transition: border-color 0.2s, box-shadow 0.2s;
+	-o-transition: border-color 0.2s, box-shadow 0.2s;
+	-webkit-transition: border-color 0.2s, box-shadow 0.2s;
+	transition: border-color 0.2s, box-shadow 0.2s;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+}
+body .ui-inputtext.ng-dirty.ng-invalid {
+	border: 1px solid #a80000;
+}
+body .ui-inputtext:enabled:hover:not(.ui-state-error) {
+	border-color: #212121;
+}
+body .ui-inputtext:enabled:focus:not(.ui-state-error) {
+	outline: 0 none;
+	outline-offset: 0;
+	-webkit-box-shadow: 0 0 0 0.2em $color-focus;
+	-moz-box-shadow: 0 0 0 0.2em $color-focus;
+	box-shadow: 0 0 0 0.2em $color-focus;
+	border-color: $color-primary;
+}
+body p-inputmask.ng-dirty.ng-invalid > .ui-inputtext {
+	border: 1px solid #a80000;
+}

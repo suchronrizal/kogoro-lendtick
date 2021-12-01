@@ -1,0 +1,45 @@
+<div class="card card-custom gutter-b">
+	<div class="card-header">
+		<div class="card-title">
+			<h5 class="card-label">Pendaftaran</h5>
+		</div>
+	</div>
+	<div class="card-body">
+		<div class="row py-2">
+			<div class="col-md-3 col-sm-12">
+				<input type="text" pInputText class="form-control" placeholder="Filter By Nama" />
+			</div>
+			<div class="col-md-3 col-sm-12">
+				<p-dropdown styleClass="form-control" placeholder="Semua Perusahaan"></p-dropdown>
+			</div>
+			<div class="col-md-3 col-sm-12">
+				<p-dropdown styleClass="form-control" placeholder="All Golongan"></p-dropdown>
+			</div>
+			<div class="col-md-3 col-sm-12">
+				<p-calendar placeholder="Date Range" inputStyleClass="form-control"></p-calendar>
+			</div>
+		</div>
+		<div class="row pt-5">
+			<div class="col-md-12">
+				<p-table [responsive]="true" [columns]="columns" [value]="data" rows="25" [paginator]="true">
+					<ng-template pTemplate="header" let-columns>
+						<tr>
+							<th *ngFor="let col of columns" class="text-center">{{ col.header }}</th>
+						</tr>
+					</ng-template>
+					<ng-template pTemplate="body" let-rowData let-columns="columns">
+						<tr class="ui-selectable-row">
+							<td *ngFor="let col of columns" [ngSwitch]="col.field" [ngClass]="{ 'text-center': col.field == 'id_workflow_status' }">
+								<span *ngSwitchDefault>{{ rowData[col.field] }}</span>
+								<span *ngSwitchCase="'id_workflow_status'">
+									<span *ngIf="rowData.id_workflow_status == 'MBRSTS03'" class="text-danger">Unpaid</span>
+									<span *ngIf="rowData.id_workflow_status == 'MBRSTS05'" class="text-success">Paid</span>
+								</span>
+							</td>
+						</tr>
+					</ng-template>
+				</p-table>
+			</div>
+		</div>
+	</div>
+</div>

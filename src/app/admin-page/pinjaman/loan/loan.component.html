@@ -1,0 +1,58 @@
+<div class="card card-custom gutter-b">
+	<div class="card-header">
+		<div class="card-title">
+			<h5 class="card-label">Loan</h5>
+		</div>
+	</div>
+	<div class="card-body">
+		<div class="row py-2">
+			<div class="col-md-3 col-sm-12">
+				<input pInputText class="form-control" placeholder="Filter By Nama" />
+			</div>
+			<div class="col-md-3 col-sm-12">
+				<p-dropdown styleClass="form-control"></p-dropdown>
+			</div>
+			<div class="col-md-3 col-sm-12">
+				<p-dropdown styleClass="form-control" placeholder="Golongan"></p-dropdown>
+			</div>
+			<div class="col-md-3 col-sm-12">
+				<p-dropdown styleClass="form-control"></p-dropdown>
+			</div>
+		</div>
+		<div class="row py-2">
+			<div class="col-md-3 col-sm-12">
+				<input pInputText class="form-control" placeholder="Filter By Nik" />
+			</div>
+			<div class="col-md-3 col-sm-12">
+				<input pInputText class="form-control" placeholder="No Pinjaman" />
+			</div>
+			<div class="col-md-6 col-sm-12">
+				<p-calendar inputStyleClass="form-control" placeholder="Date Range" selectionMode="range" readonlyInput="true"></p-calendar>
+			</div>
+		</div>
+		<div class="row pt-5">
+			<div class="col-md-12">
+				<p-table [responsive]="true" [style]="{ width: '90vw' }" [scrollable]="true" [(selection)]="selectedColumns" [value]="data" rows="25" [paginator]="true" [rowHover]="true">
+					<ng-template pTemplate="colgroup" let-columns>
+						<colgroup>
+							<col width="80px" class="text-center" />
+							<col *ngFor="let col of selectedColumns" class="text-center" style="width: 200px" />
+						</colgroup>
+					</ng-template>
+					<ng-template pTemplate="header" let-columns>
+						<tr>
+							<th width="7%" class="text-center">Options</th>
+							<th *ngFor="let col of selectedColumns" class="text-center">{{ col.header }}</th>
+						</tr>
+					</ng-template>
+					<ng-template pTemplate="body" let-rowData let-columns="columns">
+						<tr class="ui-selectable-row">
+							<td class="text-center"><button pButton type="button" class="ui-button-primary" icon="pi pi-cog" routerLink="/main/loan/detail"></button></td>
+							<td *ngFor="let col of selectedColumns">{{ rowData[col.field] }}</td>
+						</tr>
+					</ng-template>
+				</p-table>
+			</div>
+		</div>
+	</div>
+</div>

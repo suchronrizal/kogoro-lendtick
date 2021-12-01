@@ -1,0 +1,102 @@
+body .ui-autocomplete .ui-autocomplete-input {
+  padding: 0.429em;
+  text-align: left;
+}
+body
+  .ui-autocomplete.ui-autocomplete-multiple
+  .ui-autocomplete-multiple-container {
+  padding: 0.2145em 0.429em;
+}
+body
+  .ui-autocomplete.ui-autocomplete-multiple
+  .ui-autocomplete-multiple-container:not(.ui-state-disabled):hover {
+  border-color: #212121;
+}
+body
+  .ui-autocomplete.ui-autocomplete-multiple
+  .ui-autocomplete-multiple-container:not(.ui-state-disabled).ui-state-focus {
+  outline: 0 none;
+  outline-offset: 0;
+  -webkit-box-shadow: 0 0 0 0.2em $color-focus;
+  -moz-box-shadow: 0 0 0 0.2em $color-focus;
+  box-shadow: 0 0 0 0.2em $color-focus;
+  border-color: $color-primary;
+}
+body
+  .ui-autocomplete.ui-autocomplete-multiple
+  .ui-autocomplete-multiple-container
+  .ui-autocomplete-input-token {
+  margin: 0;
+  padding: 0.2145em 0;
+  color: #333333;
+}
+body
+  .ui-autocomplete.ui-autocomplete-multiple
+  .ui-autocomplete-multiple-container
+  .ui-autocomplete-input-token
+  input {
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 14px;
+  padding: 0;
+  margin: 0;
+}
+body
+  .ui-autocomplete.ui-autocomplete-multiple
+  .ui-autocomplete-multiple-container
+  .ui-autocomplete-token {
+  font-size: 14px;
+  padding: 0.2145em 0.429em;
+  margin: 0 0.286em 0 0;
+  background: $color-primary;
+  color: #ffffff;
+}
+body .ui-autocomplete-panel {
+  padding: 0;
+  border: 1px solid #c8c8c8;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  -moz-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+}
+body .ui-autocomplete-panel .ui-autocomplete-items {
+  padding: 0;
+}
+body .ui-autocomplete-panel .ui-autocomplete-items .ui-autocomplete-list-item {
+  margin: 0;
+  padding: 0.429em 0.857em;
+  border: 0 none;
+  color: #333333;
+  background-color: transparent;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+}
+body
+  .ui-autocomplete-panel
+  .ui-autocomplete-items
+  .ui-autocomplete-list-item.ui-state-highlight {
+  color: #ffffff;
+  background-color: $color-primary;
+}
+body .ui-autocomplete-panel .ui-autocomplete-items .ui-autocomplete-group {
+  padding: 0.429em 0.857em;
+  background-color: #d8dae2;
+  color: #333333;
+}
+body .ui-fluid .ui-autocomplete .ui-autocomplete-dropdown.ui-button {
+  width: 2.357em;
+}
+body
+  .ui-fluid
+  .ui-autocomplete.ui-autocomplete-multiple.ui-autocomplete-dd
+  .ui-autocomplete-multiple-container {
+  border-right: 0 none;
+  width: calc(100% - 2.357em);
+}
+body .ui-fluid .ui-autocomplete.ui-autocomplete-dd .ui-inputtext {
+  border-right: 0 none;
+  width: calc(100% - 2.357em);
+}
+body p-autocomplete.ng-dirty.ng-invalid > .ui-autocomplete > .ui-inputtext {
+  border: 1px solid $color-error;
+}

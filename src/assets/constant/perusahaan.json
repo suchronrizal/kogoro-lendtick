@@ -1,0 +1,1418 @@
+[
+	{
+		"id_company": "COMP011",
+		"name_company": "Toyoda Gosei Indonesia"
+	},
+	{
+		"id_company": "COMP012",
+		"name_company": "UMA"
+	},
+	{
+		"id_company": "COMP013",
+		"name_company": "DummyTest5"
+	},
+	{
+		"id_company": "COMP014",
+		"name_company": "DummyTest2"
+	},
+	{
+		"id_company": "COMP015",
+		"name_company": "DummyTest3"
+	},
+	{
+		"id_company": "COMP016",
+		"name_company": "Dummy Test 2"
+	},
+	{
+		"id_company": "COMP017",
+		"name_company": "Dummy Test Riyan"
+	},
+	{
+		"id_company": "COMP018",
+		"name_company": "Rcompany"
+	},
+	{
+		"id_company": "COMP019",
+		"name_company": "TestAja"
+	},
+	{
+		"id_company": "COMP020",
+		"name_company": "DummyTest5"
+	},
+	{
+		"id_company": "COMP021",
+		"name_company": "DummyTest7"
+	},
+	{
+		"id_company": "COMP022",
+		"name_company": "DummyTest8"
+	},
+	{
+		"id_company": "COMP023",
+		"name_company": "PT Test International"
+	},
+	{
+		"id_company": "COMP10",
+		"name_company": "SANKAWANGI"
+	},
+	{
+		"id_company": "COMP105",
+		"name_company": "ADVANCED INTERCONNECT TECHNOLOGIES, PT."
+	},
+	{
+		"id_company": "COMP106",
+		"name_company": "RAMPUN SARI KEMUNING"
+	},
+	{
+		"id_company": "COMP107",
+		"name_company": "RUMPUN SARI ANTAN, PT."
+	},
+	{
+		"id_company": "COMP108",
+		"name_company": "TOPASARI"
+	},
+	{
+		"id_company": "COMP11",
+		"name_company": "ASTRA GRAPHIA TBK, PT."
+	},
+	{
+		"id_company": "COMP12",
+		"name_company": "ASTRA CREDIT COMPANIES, PT."
+	},
+	{
+		"id_company": "COMP124",
+		"name_company": "DHARMA SATYA NUSANTARA, PT. (GRESIK)"
+	},
+	{
+		"id_company": "COMP13",
+		"name_company": "ASURANSI ASTRA BUANA, PT."
+	},
+	{
+		"id_company": "COMP1373",
+		"name_company": "KOPERASI ASTRA HONDA MOTOR"
+	},
+	{
+		"id_company": "COMP1374",
+		"name_company": "KOPKARMITRA ASTRA GRAPHIA"
+	},
+	{
+		"id_company": "COMP1378",
+		"name_company": "KOMATSU REMANUFACTURING ASIA, PT."
+	},
+	{
+		"id_company": "COMP1385",
+		"name_company": "ASTRA INTERNTAIONAL TBK, PT. ( HO )"
+	},
+	{
+		"id_company": "COMP139",
+		"name_company": "ISUZU ASTRA MOTOR INDONESIA, PT"
+	},
+	{
+		"id_company": "COMP1395",
+		"name_company": "ASANO GEAR INDONESIA, PT."
+	},
+	{
+		"id_company": "COMP1398",
+		"name_company": "BAKOM METAL INDUSTRIES, PT"
+	},
+	{
+		"id_company": "COMP1399",
+		"name_company": "KOPERASI CIPTA MANDIRI"
+	},
+	{
+		"id_company": "COMP14",
+		"name_company": "KARABHA UNGGUL (MAKRO)"
+	},
+	{
+		"id_company": "COMP140",
+		"name_company": "GAYA MOTOR - KD PLANT DIVISION, PT"
+	},
+	{
+		"id_company": "COMP141",
+		"name_company": "SURYARAYA RUBBERINDO INDUSTRIES, PT."
+	},
+	{
+		"id_company": "COMP1414",
+		"name_company": "AKASHI WAHANA INDONESIA, PT."
+	},
+	{
+		"id_company": "COMP1417",
+		"name_company": "TOYOFUJI LOGISTICS INDONESIA, PT."
+	},
+	{
+		"id_company": "COMP142",
+		"name_company": "FSCM MANUFACTURING INDONESIA, PT."
+	},
+	{
+		"id_company": "COMP1420",
+		"name_company": "ASTRA INTERNATIONAL TBK, PT. (SSC)"
+	},
+	{
+		"id_company": "COMP1425",
+		"name_company": "KOPERASI PAMANDIRI"
+	},
+	{
+		"id_company": "COMP1429",
+		"name_company": "KOPKAR HASTA KUMALA"
+	},
+	{
+		"id_company": "COMP1430",
+		"name_company": "DHARMA SATYA NUSANTARA, PT. (TEMANGGUNG)"
+	},
+	{
+		"id_company": "COMP1438",
+		"name_company": "PENDIRI KOPERASI"
+	},
+	{
+		"id_company": "COMP144",
+		"name_company": "UNIMITRA KHARISMA2 II (LINTAS), PT"
+	},
+	{
+		"id_company": "COMP145",
+		"name_company": "UNIMITRA KHARISMA, PT."
+	},
+	{
+		"id_company": "COMP1450",
+		"name_company": "KOPERASI KARYAWAN ADIWIRA PLASTIK"
+	},
+	{
+		"id_company": "COMP1455",
+		"name_company": "PAM LYONNAISE JAYA (PALYJA), PT."
+	},
+	{
+		"id_company": "COMP1461",
+		"name_company": "GAYA MOTOR - PRODUKSI 2, PT."
+	},
+	{
+		"id_company": "COMP1464",
+		"name_company": "KOPERASI KARYAWAN  KOMATSU INDONESIA"
+	},
+	{
+		"id_company": "COMP1470",
+		"name_company": "YAYASAN ASTRA BINA ILMU (POLMAN)"
+	},
+	{
+		"id_company": "COMP1473",
+		"name_company": "KOPERASI KANITRA"
+	},
+	{
+		"id_company": "COMP1474",
+		"name_company": "INDONESIA NIPPON SEIKI, PT"
+	},
+	{
+		"id_company": "COMP1475",
+		"name_company": "TOYODA GOSEI SAFETY SYSTEM IND, PT"
+	},
+	{
+		"id_company": "COMP1477",
+		"name_company": "YAYASAN DHARMA BHAKTI ASTRA"
+	},
+	{
+		"id_company": "COMP1478",
+		"name_company": "SERASI TRANSPORTASI NUSANTARA, PT."
+	},
+	{
+		"id_company": "COMP148",
+		"name_company": "ASTRA OTOPARTS TBK, PT- ADIWIRA PLASTIK"
+	},
+	{
+		"id_company": "COMP1482",
+		"name_company": "YAYASAN ASTRA BINA ILMU (BERNAS)"
+	},
+	{
+		"id_company": "COMP1489",
+		"name_company": "EKSTERN SIMPANAN"
+	},
+	{
+		"id_company": "COMP149",
+		"name_company": "NITTOH PRESISI INDONESIA, PT."
+	},
+	{
+		"id_company": "COMP1490",
+		"name_company": "EKSTERN PIUTANG"
+	},
+	{
+		"id_company": "COMP1495",
+		"name_company": "ASTRA OTOPARTS TBK DIVISI WINTEQ"
+	},
+	{
+		"id_company": "COMP1496",
+		"name_company": "KOPKAR PT. ADIS"
+	},
+	{
+		"id_company": "COMP1498",
+		"name_company": "KOPERASI AUTO 2000"
+	},
+	{
+		"id_company": "COMP15",
+		"name_company": "AI - ASTRA WORLD, PT."
+	},
+	{
+		"id_company": "COMP150",
+		"name_company": "SUPER GLOSSINDO INDAH, PT."
+	},
+	{
+		"id_company": "COMP1502",
+		"name_company": "KOPERASI TRIDAYA INTI WAHANA"
+	},
+	{
+		"id_company": "COMP1503",
+		"name_company": "DHARMA AGROTAMA NUSANTARA, PT"
+	},
+	{
+		"id_company": "COMP1504",
+		"name_company": "DEWATA SAWIT NUSANTARA, PT"
+	},
+	{
+		"id_company": "COMP1505",
+		"name_company": "KOPNIT SIGAP PRIMA ASTREA"
+	},
+	{
+		"id_company": "COMP1506",
+		"name_company": "KOPERASI KARYAWAN PT. AAB"
+	},
+	{
+		"id_company": "COMP1507",
+		"name_company": "SIGAP GARDA PRATAMA, PT."
+	},
+	{
+		"id_company": "COMP1508",
+		"name_company": "STATUS PHK"
+	},
+	{
+		"id_company": "COMP151",
+		"name_company": "CIPTA MANDIRI WIRASAKTI, PT"
+	},
+	{
+		"id_company": "COMP1511",
+		"name_company": "MARGA MANDALA SAKTI, PT."
+	},
+	{
+		"id_company": "COMP1512",
+		"name_company": "UNITED TRACTORS SEMEN GRESIK, PT"
+	},
+	{
+		"id_company": "COMP1513",
+		"name_company": "KOPERASI KARYAWAN PT. KAYABA"
+	},
+	{
+		"id_company": "COMP1514",
+		"name_company": "KOPERASI SERASI AUTORAYA"
+	},
+	{
+		"id_company": "COMP1515",
+		"name_company": "KOPERASI FIF 2000"
+	},
+	{
+		"id_company": "COMP1516",
+		"name_company": "KOPERASI KARYAWAN TOYOTA"
+	},
+	{
+		"id_company": "COMP1517",
+		"name_company": "KOPERASI KARYAWAN PT. MARGA MANDALA SAKTI"
+	},
+	{
+		"id_company": "COMP1518",
+		"name_company": "KOPERASI WARGA UNITED TRACTORS SEMEN GRESIK"
+	},
+	{
+		"id_company": "COMP1519",
+		"name_company": "KOPERASI KARYAWAN INDOKARLO PERKASA"
+	},
+	{
+		"id_company": "COMP1520",
+		"name_company": "STATUS MENINGGAL"
+	},
+	{
+		"id_company": "COMP1521",
+		"name_company": "PUK SP LEM PT. TOYOTA ASTRA MOTOR"
+	},
+	{
+		"id_company": "COMP1522",
+		"name_company": "KOPERASI KARYAWAN PT. GS BATTERY KARAWANG PLANT"
+	},
+	{
+		"id_company": "COMP1523",
+		"name_company": "SWAKARSA CIPTA MANDIRI, PT"
+	},
+	{
+		"id_company": "COMP1530",
+		"name_company": "KOPERASI KARYAWAN PT. EDS MFG INDONESIA"
+	},
+	{
+		"id_company": "COMP1533",
+		"name_company": "HARMONI MITRA UTAMA, PT"
+	},
+	{
+		"id_company": "COMP1535",
+		"name_company": "FSPMI PT. EDS MFG INDONESIA"
+	},
+	{
+		"id_company": "COMP1539",
+		"name_company": "TOYO DENSO INDONESIA, PT."
+	},
+	{
+		"id_company": "COMP1540",
+		"name_company": "SP DNIA"
+	},
+	{
+		"id_company": "COMP1541",
+		"name_company": "KOPKAR AI-ISUZU SO"
+	},
+	{
+		"id_company": "COMP1546",
+		"name_company": "SERASI LOGISTICS INDONESIA, PT."
+	},
+	{
+		"id_company": "COMP1547",
+		"name_company": "NUSA KEIHIN INDONESIA, PT."
+	},
+	{
+		"id_company": "COMP1549",
+		"name_company": "YAYASAN PENDIDIKAN ASTRA MICHAEL D.RUSLIM"
+	},
+	{
+		"id_company": "COMP1550",
+		"name_company": "BALAI LELANG SERASI, PT."
+	},
+	{
+		"id_company": "COMP1551",
+		"name_company": "ASTRA VISTEON INDONESIA, PT"
+	},
+	{
+		"id_company": "COMP1552",
+		"name_company": "KOPKAR PT. SRI"
+	},
+	{
+		"id_company": "COMP1553",
+		"name_company": "MARGA HARJAYA INFRASTRUKTUR, PT."
+	},
+	{
+		"id_company": "COMP1554",
+		"name_company": "KOPKAR PALYJA"
+	},
+	{
+		"id_company": "COMP1555",
+		"name_company": "KOPKAR FSCM MANUFACTURING INDONESIA"
+	},
+	{
+		"id_company": "COMP1556",
+		"name_company": "KOPKAR FEDERAL IZUMI Mfg"
+	},
+	{
+		"id_company": "COMP1557",
+		"name_company": "KOPKAR ASTRA ARGO LESTARI"
+	},
+	{
+		"id_company": "COMP1558",
+		"name_company": "KOPKAR KATSUSHIRO INDONESIA"
+	},
+	{
+		"id_company": "COMP1559",
+		"name_company": "KOPKAR TRAKNUS"
+	},
+	{
+		"id_company": "COMP1561",
+		"name_company": "KOPKAR CHUHATSU INDONESIA"
+	},
+	{
+		"id_company": "COMP1562",
+		"name_company": "KOPKAR INDONESIA NIPPON SEIKI"
+	},
+	{
+		"id_company": "COMP1563",
+		"name_company": "KOPKAR IPPI"
+	},
+	{
+		"id_company": "COMP1564",
+		"name_company": "KOPKAR NUSA METAL"
+	},
+	{
+		"id_company": "COMP1565",
+		"name_company": "KOPKAR AISIN INDONESIA"
+	},
+	{
+		"id_company": "COMP1566",
+		"name_company": "KOPERASI IKATAN KARYAWAN ACC"
+	},
+	{
+		"id_company": "COMP1568",
+		"name_company": "KOPKAR ANGI"
+	},
+	{
+		"id_company": "COMP1569",
+		"name_company": "KOPKAR MADANI ASTRA GRAPHIA"
+	},
+	{
+		"id_company": "COMP1570",
+		"name_company": "KOPERASI MENARA ABADI"
+	},
+	{
+		"id_company": "COMP1571",
+		"name_company": "KOPKAR GS BATTERY SUNTER"
+	},
+	{
+		"id_company": "COMP1572",
+		"name_company": "KOPKAR AKEBONO BRAKE ASTRA INDONESIA"
+	},
+	{
+		"id_company": "COMP1574",
+		"name_company": "KOPKAR DIC ASTRA CHEMICAL"
+	},
+	{
+		"id_company": "COMP1575",
+		"name_company": "KOPKAR TRIDAYA INTI WAHANA - IGP"
+	},
+	{
+		"id_company": "COMP1576",
+		"name_company": "KOPKAR TRIDAYA INTI WAHANA"
+	},
+	{
+		"id_company": "COMP1577",
+		"name_company": "KOPKAR IAMI"
+	},
+	{
+		"id_company": "COMP1579",
+		"name_company": "KOPKAR GAYA MOTOR"
+	},
+	{
+		"id_company": "COMP158",
+		"name_company": "ASTRA AGRO LESTARI, PT."
+	},
+	{
+		"id_company": "COMP1580",
+		"name_company": "KOPKAR MUSASHI"
+	},
+	{
+		"id_company": "COMP1581",
+		"name_company": "KOPKAR CENTURY BATTERY"
+	},
+	{
+		"id_company": "COMP1582",
+		"name_company": "KOPKAR DENSO INDONESIA"
+	},
+	{
+		"id_company": "COMP1584",
+		"name_company": "KOPKAR ADIWIRA PLASTIK"
+	},
+	{
+		"id_company": "COMP1585",
+		"name_company": "KOPKAR NUSA KEIHIN"
+	},
+	{
+		"id_company": "COMP1587",
+		"name_company": "ASTRA NIPPON NHK PRECISION, PT."
+	},
+	{
+		"id_company": "COMP1588",
+		"name_company": "ASTRA DAIHATSU MOTOR, PT. (PLANT 5)"
+	},
+	{
+		"id_company": "COMP1589",
+		"name_company": "ASTRA DAIHATSU MOTOR, PT. (PARTS CENTER)"
+	},
+	{
+		"id_company": "COMP159",
+		"name_company": "ARJUNA PERDANA MAHKOTA PLYWOOD"
+	},
+	{
+		"id_company": "COMP1590",
+		"name_company": "KOPKAR ASTRA DAIHATSU MOTOR"
+	},
+	{
+		"id_company": "COMP1591",
+		"name_company": "KSU WARGA UT SEMEN GRESIK"
+	},
+	{
+		"id_company": "COMP1593",
+		"name_company": "UNITED AUTOMOBIL SEMBILANPULUH UTAMA, PT."
+	},
+	{
+		"id_company": "COMP1595",
+		"name_company": "KOPKAR TJAHAJA SAKTI MOTOR"
+	},
+	{
+		"id_company": "COMP1596",
+		"name_company": "KOPKAR FEDERALNITTAN INDUSTRIES"
+	},
+	{
+		"id_company": "COMP1597",
+		"name_company": "KOPKAR FUJITECHNIKA INDONESIA"
+	},
+	{
+		"id_company": "COMP1598",
+		"name_company": "KOPKAR ASTRA DAIDO INDONESIA"
+	},
+	{
+		"id_company": "COMP1599",
+		"name_company": "KOPKAR MESIN ISUZU INDONESIA"
+	},
+	{
+		"id_company": "COMP160",
+		"name_company": "INTI PRONA"
+	},
+	{
+		"id_company": "COMP1601",
+		"name_company": "ASTRA JUOKU INDONESIA, PT"
+	},
+	{
+		"id_company": "COMP1602",
+		"name_company": "KOPKAR YUTAKA"
+	},
+	{
+		"id_company": "COMP1603",
+		"name_company": "HONDA LOCK INDONESIA, PT"
+	},
+	{
+		"id_company": "COMP1604",
+		"name_company": "PAKOAKUINA, PT"
+	},
+	{
+		"id_company": "COMP1605",
+		"name_company": "DANA PENSIUN TOYOTA ASTRA"
+	},
+	{
+		"id_company": "COMP1606",
+		"name_company": "MENARA ASTRA, PT"
+	},
+	{
+		"id_company": "COMP1607",
+		"name_company": "AUTOPLASTIK INDONESIA, PT"
+	},
+	{
+		"id_company": "COMP1608",
+		"name_company": "KOPERASI PRA DAN PURNABAKTI KARYAWAN PT. UTPE"
+	},
+	{
+		"id_company": "COMP1611",
+		"name_company": "EVOLUZIONE TYRES, PT"
+	},
+	{
+		"id_company": "COMP1612",
+		"name_company": "ASTRA GRAPHIA XPRINT INDONESIA, PT"
+	},
+	{
+		"id_company": "COMP1613",
+		"name_company": "MARGA TRANS NUSANTARA, PT."
+	},
+	{
+		"id_company": "COMP1614",
+		"name_company": "VELASTO INDONESIA, PT. (PURWAKARTA)"
+	},
+	{
+		"id_company": "COMP1615",
+		"name_company": "SAMADISTA KARYA, PT."
+	},
+	{
+		"id_company": "COMP1616",
+		"name_company": "PELABUHAN PENAJAM BANUA TAKA, PT."
+	},
+	{
+		"id_company": "COMP1617",
+		"name_company": "INKOASKU, PT."
+	},
+	{
+		"id_company": "COMP1618",
+		"name_company": "PALINGDA NASIONAL, PT"
+	},
+	{
+		"id_company": "COMP1619",
+		"name_company": "AISIN INDONESIA AUTOMOTIVE, PT."
+	},
+	{
+		"id_company": "COMP1620",
+		"name_company": "ASMIN BARA BRONANG, PT."
+	},
+	{
+		"id_company": "COMP1621",
+		"name_company": "ASTRA AUTO PRIMA, PT."
+	},
+	{
+		"id_company": "COMP1622",
+		"name_company": "EKSTERN KEANGGOTAAN"
+	},
+	{
+		"id_company": "COMP1623",
+		"name_company": "KALIMANTAN PRIMA PERSADA, PT."
+	},
+	{
+		"id_company": "COMP1624",
+		"name_company": "VELASTO INDONESIA, PT. (CIKARANG)"
+	},
+	{
+		"id_company": "COMP1625",
+		"name_company": "TOYOFUJI SERASI INDONESIA, PT."
+	},
+	{
+		"id_company": "COMP1626",
+		"name_company": "ACSET INDONUSA, PT."
+	},
+	{
+		"id_company": "COMP1628",
+		"name_company": "ADVICS MANUFACTURING INDONESIA, PT."
+	},
+	{
+		"id_company": "COMP1629",
+		"name_company": "BRIDGESTONE ASTRA INDONESIA, PT"
+	},
+	{
+		"id_company": "COMP1630",
+		"name_company": "PRIMA MULTI MINERAL, PT."
+	},
+	{
+		"id_company": "COMP1631",
+		"name_company": "TD AUTOMOTIVE COMPRESSOR INDONESIA, PT."
+	},
+	{
+		"id_company": "COMP1632",
+		"name_company": "UNIVERSAL TEKNO REKSAJAYA, PT."
+	},
+	{
+		"id_company": "COMP1633",
+		"name_company": "ASTRA MODERN LAND, PT."
+	},
+	{
+		"id_company": "COMP1634",
+		"name_company": "HAMADEN INDONESIA MANUFACTURING, PT."
+	},
+	{
+		"id_company": "COMP1635",
+		"name_company": "DENSO SALES INDONESIA, PT."
+	},
+	{
+		"id_company": "COMP1636",
+		"name_company": "ASTRA AVIVA LIFE, PT."
+	},
+	{
+		"id_company": "COMP1637",
+		"name_company": "TELEN ORBIT PRIMA, PT."
+	},
+	{
+		"id_company": "COMP1638",
+		"name_company": "SUPRABARI MAPANINDO MINERAL, PT."
+	},
+	{
+		"id_company": "COMP1639",
+		"name_company": "ANDALAN MULTI KENCANA, PT."
+	},
+	{
+		"id_company": "COMP1640",
+		"name_company": "PATRIA MARITIM PERKASA, PT."
+	},
+	{
+		"id_company": "COMP1641",
+		"name_company": "PATRIA MARITIM LINES, PT."
+	},
+	{
+		"id_company": "COMP1642",
+		"name_company": "METALART ASTRA INDONESIA, PT."
+	},
+	{
+		"id_company": "COMP1643",
+		"name_company": "PASANGKAYU, PT."
+	},
+	{
+		"id_company": "COMP1644",
+		"name_company": "KOPERASI JASA KARYA GUNA DHARMA"
+	},
+	{
+		"id_company": "COMP1645",
+		"name_company": "PATRIA PERIKANAN LESTARI INDONESIA, PT."
+	},
+	{
+		"id_company": "COMP1646",
+		"name_company": "TUAH TURANGGA AGUNG, PT."
+	},
+	{
+		"id_company": "COMP1647",
+		"name_company": "PATRIA MARITIM INDUSTRY, PT."
+	},
+	{
+		"id_company": "COMP1648",
+		"name_company": "LINTAS MARGA SEDAYA, PT."
+	},
+	{
+		"id_company": "COMP1649",
+		"name_company": "ASTRA LAND INDONESIA, PT."
+	},
+	{
+		"id_company": "COMP171",
+		"name_company": "ADIS, PT"
+	},
+	{
+		"id_company": "COMP174",
+		"name_company": "AI - MULTIBRAND SALES OPERATION, PT."
+	},
+	{
+		"id_company": "COMP175",
+		"name_company": "CATUR MITRA PACKINDO, PT"
+	},
+	{
+		"id_company": "COMP176",
+		"name_company": "ELTRI INDO FOOTWEAR, PT"
+	},
+	{
+		"id_company": "COMP177",
+		"name_company": "DHARMA MEDIPRO, PT."
+	},
+	{
+		"id_company": "COMP181",
+		"name_company": "DHARMA SATYA NUSANTARA, PT. (BEKASI)"
+	},
+	{
+		"id_company": "COMP183",
+		"name_company": "INDOKARLO PERKASA, PT."
+	},
+	{
+		"id_company": "COMP187",
+		"name_company": "FUJI TECHNICA INDONESIA, PT."
+	},
+	{
+		"id_company": "COMP188",
+		"name_company": "ASIAN ISUZU CASTING COMP, PT."
+	},
+	{
+		"id_company": "COMP189",
+		"name_company": "ASTRA NIPPON GASKET INDONESIA, PT."
+	},
+	{
+		"id_company": "COMP191",
+		"name_company": "GS BATTERY, PT. (KARAWANG)"
+	},
+	{
+		"id_company": "COMP20000",
+		"name_company": "SOLUSI MOBILITAS BANGSA, PT."
+	},
+	{
+		"id_company": "COMP2001",
+		"name_company": "ASTRA TOL NUSANTARA, PT."
+	},
+	{
+		"id_company": "COMP2002",
+		"name_company": "KREASI MANDIRI WINTOR INDONESIA, PT."
+	},
+	{
+		"id_company": "COMP2003",
+		"name_company": "TOPY PALINGDA MANUFACTURING INDONESIA, PT"
+	},
+	{
+		"id_company": "COMP2004",
+		"name_company": "VELASTO INDONESIA, PT. (CITEUREUP PLANT)"
+	},
+	{
+		"id_company": "COMP2005",
+		"name_company": "ASTRA NUSAPERDANA, PT."
+	},
+	{
+		"id_company": "COMP22",
+		"name_company": "AI - UD TRUCKS SALES OPERATION, PT."
+	},
+	{
+		"id_company": "COMP222",
+		"name_company": "SIGAP PRIMA ASTREA, PT."
+	},
+	{
+		"id_company": "COMP24",
+		"name_company": "AI - HONDA SALES OPERATION, PT."
+	},
+	{
+		"id_company": "COMP241",
+		"name_company": "HUMA INDAH MEKAR"
+	},
+	{
+		"id_company": "COMP245",
+		"name_company": "OCHIAI MENARA INDONESIA"
+	},
+	{
+		"id_company": "COMP246",
+		"name_company": "DHARMA POLIMETAL, PT."
+	},
+	{
+		"id_company": "COMP247",
+		"name_company": "ASTRA INTERNATIONAL TBK, PT. ( HO )"
+	},
+	{
+		"id_company": "COMP248",
+		"name_company": "TOYOTA MOTOR MFG INDONESIA, PT."
+	},
+	{
+		"id_company": "COMP25",
+		"name_company": "UNITED TRACTORS, PT."
+	},
+	{
+		"id_company": "COMP250",
+		"name_company": "SERASI MITRA MOBILINDO (MOBIL 88), PT."
+	},
+	{
+		"id_company": "COMP252",
+		"name_company": "SUGITY CREATIVES, PT."
+	},
+	{
+		"id_company": "COMP253",
+		"name_company": "NUSA TOYOTETSU CORP., PT."
+	},
+	{
+		"id_company": "COMP254",
+		"name_company": "CHUHATSU INDONESIA, PT."
+	},
+	{
+		"id_company": "COMP255",
+		"name_company": "ASTRA DAIHATSU MOTOR, PT. (HO)"
+	},
+	{
+		"id_company": "COMP256",
+		"name_company": "ASTRA DAIHATSU MOTOR, PT. (PLANT 1)"
+	},
+	{
+		"id_company": "COMP257",
+		"name_company": "ASTRA DAIHATSU MOTOR, PT. (PLANT 2)"
+	},
+	{
+		"id_company": "COMP258",
+		"name_company": "ASTRA MULTI TRUCKS INDONESIA, PT."
+	},
+	{
+		"id_company": "COMP259",
+		"name_company": "TJAHJA SAKTI MOTOR, PT."
+	},
+	{
+		"id_company": "COMP26",
+		"name_company": "PAMAPERSADA NUSANTARA, PT."
+	},
+	{
+		"id_company": "COMP260",
+		"name_company": "ASTRA FRANCE MOTOR, PT."
+	},
+	{
+		"id_company": "COMP265",
+		"name_company": "DAYA MITRA SERASI, PT."
+	},
+	{
+		"id_company": "COMP268",
+		"name_company": "AI - ISUZU USED CAR , PT. (D/H SIT)"
+	},
+	{
+		"id_company": "COMP269",
+		"name_company": "GAYA MOTOR, PT."
+	},
+	{
+		"id_company": "COMP27",
+		"name_company": "TRAKTOR NUSANTARA, PT."
+	},
+	{
+		"id_company": "COMP270",
+		"name_company": "INTI PANTJA PRESS INDUSTRI, PT."
+	},
+	{
+		"id_company": "COMP271",
+		"name_company": "PULOGADUNG PAWITRA LAKSANA, PT."
+	},
+	{
+		"id_company": "COMP274",
+		"name_company": "ASTRA HONDA MOTOR, PT"
+	},
+	{
+		"id_company": "COMP275",
+		"name_company": "FEDERAL CYCLE MUSTIKA, PT"
+	},
+	{
+		"id_company": "COMP276",
+		"name_company": "HONDA FEDERAL"
+	},
+	{
+		"id_company": "COMP277",
+		"name_company": "INDONESIA STANLEY ELECTRIC, PT."
+	},
+	{
+		"id_company": "COMP278",
+		"name_company": "SHOWA INDONESIA MANUFACTURING, PT."
+	},
+	{
+		"id_company": "COMP279",
+		"name_company": "TOYOTA AUTO BODY-TOKAI EXTRUSION, PT."
+	},
+	{
+		"id_company": "COMP28",
+		"name_company": "RUMPUN SARI MEDINI, PT."
+	},
+	{
+		"id_company": "COMP281",
+		"name_company": "ASTRA TECH"
+	},
+	{
+		"id_company": "COMP282",
+		"name_company": "ARDENDI JAYA SENTOSA, PT."
+	},
+	{
+		"id_company": "COMP284",
+		"name_company": "SARANA MUTU UTAMA"
+	},
+	{
+		"id_company": "COMP285",
+		"name_company": "ASTRA OTOPARTS TBK, PT."
+	},
+	{
+		"id_company": "COMP286",
+		"name_company": "EDS MFG II (CPT), PT"
+	},
+	{
+		"id_company": "COMP287",
+		"name_company": "MENARA TERUS MAKMUR, PT."
+	},
+	{
+		"id_company": "COMP288",
+		"name_company": "AT INDONESIA, PT."
+	},
+	{
+		"id_company": "COMP289",
+		"name_company": "EDS MFG INDONESIA, PT."
+	},
+	{
+		"id_company": "COMP290",
+		"name_company": "AISIN INDONESIA, PT."
+	},
+	{
+		"id_company": "COMP292",
+		"name_company": "GS BATTERY, PT."
+	},
+	{
+		"id_company": "COMP293",
+		"name_company": "CENTURY BATTERIES INDONESIA, PT."
+	},
+	{
+		"id_company": "COMP294",
+		"name_company": "CHLORIDE BATTERIES INDONESIA, PT"
+	},
+	{
+		"id_company": "COMP295",
+		"name_company": "KAYABA INDONESIA, PT."
+	},
+	{
+		"id_company": "COMP296",
+		"name_company": "DENSO INDONESIA, PT."
+	},
+	{
+		"id_company": "COMP297",
+		"name_company": "STEEL CENTER  INDONESIA, PT."
+	},
+	{
+		"id_company": "COMP298",
+		"name_company": "NON FERINDO UTAMA ALUMINUM ALLOY"
+	},
+	{
+		"id_company": "COMP3",
+		"name_company": "AI - TOYOTA SALES OPERATIONS, PT."
+	},
+	{
+		"id_company": "COMP30",
+		"name_company": "ASTRA GRAPHIA INFORMATION TECHNOLOGY, PT"
+	},
+	{
+		"id_company": "COMP300",
+		"name_company": "SKF INDONESIA, PT."
+	},
+	{
+		"id_company": "COMP301",
+		"name_company": "FEDERAL IZUMI MFG, PT."
+	},
+	{
+		"id_company": "COMP302",
+		"name_company": "DIC ASTRA CHEMICAL, PT."
+	},
+	{
+		"id_company": "COMP303",
+		"name_company": "NITTO ALAM INDONESIA, PT."
+	},
+	{
+		"id_company": "COMP304",
+		"name_company": "GEMALA KEMPA DAYA, PT."
+	},
+	{
+		"id_company": "COMP305",
+		"name_company": "INTI GANDA PERDANA, PT."
+	},
+	{
+		"id_company": "COMP306",
+		"name_company": "AKEBONO BRAKE ASTRA INDONESIA, PT."
+	},
+	{
+		"id_company": "COMP307",
+		"name_company": "WAHANA EKA PARAMITRA, PT."
+	},
+	{
+		"id_company": "COMP308",
+		"name_company": "ASTRA OTOPARTS TBK, PT. (NUSA METAL)"
+	},
+	{
+		"id_company": "COMP31",
+		"name_company": "BANK UNIVERSAL"
+	},
+	{
+		"id_company": "COMP310",
+		"name_company": "KOMATSU INDONESIA, PT."
+	},
+	{
+		"id_company": "COMP312",
+		"name_company": "PANDU DAYATAMA PATRIA, PT."
+	},
+	{
+		"id_company": "COMP315",
+		"name_company": "DIGITAL ASTRA NUSANTARA,PT."
+	},
+	{
+		"id_company": "COMP316",
+		"name_company": "BERAU COAL, PT."
+	},
+	{
+		"id_company": "COMP317",
+		"name_company": "KSB INDONESIA, PT."
+	},
+	{
+		"id_company": "COMP318",
+		"name_company": "KOMATSU FORGING INDONESIA, PT."
+	},
+	{
+		"id_company": "COMP32",
+		"name_company": "FEDERAL INTERNATIONAL FINANCE, PT."
+	},
+	{
+		"id_company": "COMP322",
+		"name_company": "SUMALINDO LESTARI JAYA, PT. (JAKARTA)"
+	},
+	{
+		"id_company": "COMP323",
+		"name_company": "DHARMA SATYA NUSANTARA, PT. (JAKARTA)"
+	},
+	{
+		"id_company": "COMP325",
+		"name_company": "SUMALINDO HUTANI JAYA, PT."
+	},
+	{
+		"id_company": "COMP326",
+		"name_company": "SURYA HUTANI JAYA, PT."
+	},
+	{
+		"id_company": "COMP327",
+		"name_company": "PINAFAL NUSANTARA, PT."
+	},
+	{
+		"id_company": "COMP330",
+		"name_company": "BINA BUSANA INTERNUSA, PT."
+	},
+	{
+		"id_company": "COMP331",
+		"name_company": "TUNAS SUKSES"
+	},
+	{
+		"id_company": "COMP336",
+		"name_company": "ADIPURA SUMBER SEDAYA FINANCE, PT."
+	},
+	{
+		"id_company": "COMP337",
+		"name_company": "ESTIKA SEDAYA FINANCE, PT."
+	},
+	{
+		"id_company": "COMP338",
+		"name_company": "STACOMITRA SEDAYA FINANCE, PT."
+	},
+	{
+		"id_company": "COMP339",
+		"name_company": "SWADHARMA BHAKTI SEDAYA FINANCE, PT."
+	},
+	{
+		"id_company": "COMP340",
+		"name_company": "SWADHARMA CAKRA SEDAYA FINANCE, PT."
+	},
+	{
+		"id_company": "COMP341",
+		"name_company": "ASTRA SECURITIES, PT."
+	},
+	{
+		"id_company": "COMP342",
+		"name_company": "SURYA ARTHA NUSANTARA FINANCE, PT."
+	},
+	{
+		"id_company": "COMP347",
+		"name_company": "ASTRA MULTI FINANCE, PT."
+	},
+	{
+		"id_company": "COMP348",
+		"name_company": "ASTRA MITRA VENTURA, PT."
+	},
+	{
+		"id_company": "COMP350",
+		"name_company": "GE ASTRA FINANCE"
+	},
+	{
+		"id_company": "COMP351",
+		"name_company": "SEDAYA PROPERTINDO, PT."
+	},
+	{
+		"id_company": "COMP352",
+		"name_company": "TOYOTA ASTRA FINANCIAL SERVICES, PT."
+	},
+	{
+		"id_company": "COMP353",
+		"name_company": "ARTHA SEDAYA FINANCE, PT."
+	},
+	{
+		"id_company": "COMP354",
+		"name_company": "KOMATSU ASTRA FINANCE, PT."
+	},
+	{
+		"id_company": "COMP355",
+		"name_company": "INTERTEL NUSAPERDANA, PT."
+	},
+	{
+		"id_company": "COMP356",
+		"name_company": "ASTRATEL NUSANTARA, PT."
+	},
+	{
+		"id_company": "COMP357",
+		"name_company": "TELUM NUSANTARA"
+	},
+	{
+		"id_company": "COMP359",
+		"name_company": "PERMATA BANK, PT"
+	},
+	{
+		"id_company": "COMP360",
+		"name_company": "SKYLIFT INDONESIA, PT."
+	},
+	{
+		"id_company": "COMP361",
+		"name_company": "KOPERASI ASTRA INTERNATIONAL"
+	},
+	{
+		"id_company": "COMP364",
+		"name_company": "UNIMITRA ASPERA, PT."
+	},
+	{
+		"id_company": "COMP365",
+		"name_company": "SEDAYA MULTI INVESTAMA, PT."
+	},
+	{
+		"id_company": "COMP366",
+		"name_company": "GS BATTERY INC II, PT."
+	},
+	{
+		"id_company": "COMP367",
+		"name_company": "HANKEN INDONESIA, PT."
+	},
+	{
+		"id_company": "COMP368",
+		"name_company": "FEDERAL NITTAN INDUSTRIES, PT."
+	},
+	{
+		"id_company": "COMP369",
+		"name_company": "ASTRA DAIHATSU MOTOR, PT. (PLANT 3)"
+	},
+	{
+		"id_company": "COMP370",
+		"name_company": "ASTRA DAIHATSU MOTOR, PT. (PLANT 4)"
+	},
+	{
+		"id_company": "COMP371",
+		"name_company": "DANA PENSIUN ASTRA"
+	},
+	{
+		"id_company": "COMP372",
+		"name_company": "KATSUSHIRO INDONESIA, PT."
+	},
+	{
+		"id_company": "COMP375",
+		"name_company": "SURYARAYA PRAWIRA, PT."
+	},
+	{
+		"id_company": "COMP376",
+		"name_company": "ASTRA DAIDO STEEL INDONESIA, PT."
+	},
+	{
+		"id_company": "COMP377",
+		"name_company": "RIKKA SHOE TECH, PT."
+	},
+	{
+		"id_company": "COMP378",
+		"name_company": "BINA PERTIWI, PT."
+	},
+	{
+		"id_company": "COMP379",
+		"name_company": "BHINEKA SWADAYA INTI, PT."
+	},
+	{
+		"id_company": "COMP380",
+		"name_company": "SWADAYA HARAPAN NUSANTARA, PT."
+	},
+	{
+		"id_company": "COMP381",
+		"name_company": "SWAKARSA SINARSENTOSA, PT"
+	},
+	{
+		"id_company": "COMP383",
+		"name_company": "PAN TRAVEL"
+	},
+	{
+		"id_company": "COMP384",
+		"name_company": "PERORANGAN EKSTERN"
+	},
+	{
+		"id_company": "COMP385",
+		"name_company": "MUSASHI AUTO PARTS INDONESIA, PT."
+	},
+	{
+		"id_company": "COMP386",
+		"name_company": "ASTRA KOMPONEN INDONESIA, PT."
+	},
+	{
+		"id_company": "COMP387",
+		"name_company": "FEDERAL KARYATAMA, PT."
+	},
+	{
+		"id_company": "COMP388",
+		"name_company": "SURYA RAYA LESTARI, PT."
+	},
+	{
+		"id_company": "COMP389",
+		"name_company": "PANJIWARINGIN"
+	},
+	{
+		"id_company": "COMP390",
+		"name_company": "GAPURA KENCANA AB, PT."
+	},
+	{
+		"id_company": "COMP391",
+		"name_company": "ISTANA TOUR"
+	},
+	{
+		"id_company": "COMP392",
+		"name_company": "CARAKATENIS SPORTINDO, PT."
+	},
+	{
+		"id_company": "COMP394",
+		"name_company": "KOPERASI CASABLANCA SEJAHTERA"
+	},
+	{
+		"id_company": "COMP395",
+		"name_company": "YUTAKA MANUFACTURING INDONESIA, PT."
+	},
+	{
+		"id_company": "COMP396",
+		"name_company": "MESIN ISUZU INDONESIA, PT"
+	},
+	{
+		"id_company": "COMP397",
+		"name_company": "YAYASAN AMALIAH ASTRA"
+	},
+	{
+		"id_company": "COMP398",
+		"name_company": "BRAHMAYASA BAHTERA, PT."
+	},
+	{
+		"id_company": "COMP399",
+		"name_company": "PADANGBARA SUKSES MAKMUR, PT"
+	},
+	{
+		"id_company": "COMP4",
+		"name_company": "SERASI AUTORAYA, PT."
+	},
+	{
+		"id_company": "COMP401",
+		"name_company": "ASMO REMUNERASI"
+	},
+	{
+		"id_company": "COMP403",
+		"name_company": "TOYOTA ASTRA MOTOR, PT"
+	},
+	{
+		"id_company": "COMP404",
+		"name_company": "KARSA SURYA INDONUSA, PT."
+	},
+	{
+		"id_company": "COMP406",
+		"name_company": "MITSUBA INDONESIA, PT"
+	},
+	{
+		"id_company": "COMP407",
+		"name_company": "INTERN(PERORANGAN)"
+	},
+	{
+		"id_company": "COMP408",
+		"name_company": "NON KARYA"
+	},
+	{
+		"id_company": "COMP42",
+		"name_company": "AI - BMW SALES OPERATION, PT."
+	},
+	{
+		"id_company": "COMP427",
+		"name_company": "SHINDENGEN INDONESIA, PT."
+	},
+	{
+		"id_company": "COMP46",
+		"name_company": "DHARMA SATYA NUSANTARA, PT. (SURABAYA)"
+	},
+	{
+		"id_company": "COMP5",
+		"name_company": "AI - DAIHATSU SALES OPERATION, PT."
+	},
+	{
+		"id_company": "COMP51",
+		"name_company": "ASTRA AUTO FINANCE, PT."
+	},
+	{
+		"id_company": "COMP6",
+		"name_company": "AI - PEUGEOT SALES OPERATION, PT."
+	},
+	{
+		"id_company": "COMP63",
+		"name_company": "UNITED TRACTORS PANDU ENGINEERING, PT."
+	},
+	{
+		"id_company": "COMP65",
+		"name_company": "SUMALINDO LESTARI JAYA, PT. (SAMARINDA)"
+	},
+	{
+		"id_company": "COMP66",
+		"name_company": "DHARMA SATYA NUSANTARA, PT. (SAMARINDA)"
+	},
+	{
+		"id_company": "COMP67",
+		"name_company": "SWAKARSA SINARSENTOSA, PT."
+	},
+	{
+		"id_company": "COMP7",
+		"name_company": "AI - ISUZU SALES OPERATION, PT."
+	},
+	{
+		"id_company": "COMP72",
+		"name_company": "COMMONWEALTH LIFE, PT."
+	},
+	{
+		"id_company": "COMP81",
+		"name_company": "PRAMINDO IKAT NUSANTARA, PT."
+	},
+	{
+		"id_company": "COMP990",
+		"name_company": "ADIWIRA PLASTIK\r\n"
+	},
+	{
+		"id_company": "COMP991",
+		"name_company": "AISIN INDONESIA GROUP, PT.\r\n"
+	},
+	{
+		"id_company": "COMP992",
+		"name_company": "NUSA METAL"
+	},
+	{
+		"id_company": "COMP995",
+		"name_company": "UD ASTRA MOTOR INDONESIA, PT."
+	},
+	{
+		"id_company": "COMP996",
+		"name_company": "LEXUS SALES OPERATION, PT. \n"
+	},
+	{
+		"id_company": "COMP997",
+		"name_company": "ARDENDI JAYA SENTOSA, PT. \n"
+	}
+]

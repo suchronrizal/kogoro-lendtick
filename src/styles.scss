@@ -1,0 +1,174 @@
+/* You can add global styles to this file, and also import other style files */
+@import './assets/css/variables.scss';
+@import './assets/css/page.scss';
+// primeng scss
+@import './assets/css/primeng/panelmenu';
+@import './assets/css/primeng/overlay-panel.scss';
+@import './assets/css/primeng/datatable.scss';
+@import './assets/css/primeng/calendar.scss';
+@import './assets/css/primeng/button.scss';
+@import './assets/css/primeng/dropdown.scss';
+@import './assets/css/primeng/radiobutton.scss';
+@import './assets/css/primeng/toast.scss';
+@import './assets/css/primeng/autocomplete.scss';
+@import './assets/css/primeng/input-text.scss';
+@import './assets/css/primeng/modal.scss';
+@import './assets/css/primeng/checkbox.scss';
+@import './assets/css/primeng/spinner-input.scss';
+@import './assets/css/primeng/breadcrumb.scss';
+@import './assets/css/primeng/multiselect.scss';
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700');
+$font-family: 'Roboto', sans-serif;
+
+body {
+	margin: 0;
+	font-size: 14px;
+	font-family: $font-family;
+}
+a {
+	color: $color-primary;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+	margin: unset;
+}
+.pi {
+	font-size: 1rem;
+}
+// card
+.card-custom {
+	box-shadow: 0 0 30px 0 rgb(82 63 105 / 5%);
+	border: 0;
+}
+.card.card-custom {
+	> .card-header {
+		display: flex;
+		justify-content: space-between;
+		align-items: stretch;
+		flex-wrap: wrap;
+		background-color: transparent;
+		border-bottom: 1px solid rgba(88, 88, 88, 0.1);
+		.card-title {
+			margin: 5px 5px 5px 0;
+		}
+		.card-label {
+			font-weight: 500;
+			font-size: 1.3rem;
+			color: #3e4256;
+		}
+	}
+}
+
+// tabview
+.ui-tabview {
+	padding: unset;
+	.ui-tabview-nav {
+		padding: unset !important;
+		li {
+			> a {
+				display: block;
+				width: 100%;
+				padding: 15px 30px;
+				border: 0;
+				border-bottom: 1px solid #efefef;
+				font-weight: 500;
+			}
+			&.ui-state-active {
+				color: $color-primary;
+			}
+		}
+	}
+	.ui-tabview-panels {
+		background: #fff;
+		width: calc(100% - 280px);
+		border-left: 1px solid #efefef;
+		margin-left: -1px;
+		min-height: 700px;
+		position: relative;
+	}
+}
+
+// custom bootstra radio
+.form-check-inline .form-check-input {
+	margin-right: 0.9125rem;
+}
+
+// bootstrap form
+.form-group label {
+	font-weight: 400;
+}
+.ui-inputtext {
+	padding: unset;
+}
+
+.ui-widget-overlay {
+	background-color: rgba(0, 0, 0, 0.4);
+}
+.ui-blockui {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+// calendar
+.ui-state-disabled {
+	background-color: #efefef;
+	color: #cccccc !important;
+}
+
+// error fields
+.invalid-feedback {
+	color: $color-error;
+	font-size: 0.9rem;
+	font-weight: 400;
+	display: block;
+	width: 100%;
+	margin-top: 0.25rem;
+}
+
+.p-field {
+	margin-bottom: 1rem;
+}
+.form-control {
+	&::placeholder {
+		color: #cccccc;
+	}
+	&:disabled,
+	&[readonly] {
+		background-color: #f1f1f1;
+	}
+}
+
+.label-status {
+	width: auto;
+	padding: 0.9rem 0.75rem;
+	height: 24px;
+	font-size: 0.9rem;
+	border-radius: 0.42rem;
+	margin: 0;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: 400;
+}
+.label-status-success {
+	color: #f27a21;
+	background-color: #ffd0ad;
+}
+.label-status-danger {
+	color: #f64e60;
+	background-color: #ffe2e5;
+}

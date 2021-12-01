@@ -1,0 +1,26 @@
+<div class="main">
+	<main class="container">
+		<div class="bg-white rounded shadow-7 w-400 mw-100 p-6">
+			<h5 class="mb-7">Sign into your account</h5>
+			<form #form="ngForm" (ngSubmit)="sumbitLogin(form.value)">
+				<div class="form-group col-12">
+					<label for="EmailPersonal">Email</label>
+					<input class="form-control" name="EmailPersonal" id="EmailPersonal" ngModel #refEmailPersonal="ngModel" />
+				</div>
+				<div class="form-group col-12">
+					<label for="Password">Password</label>
+					<input type="password" class="form-control" name="Password" id="Password" ngModel #refPassword="ngModel" />
+				</div>
+				<div class="form-group col-12 flexbox py-3">
+					<div class="custom-control">
+						<p-checkbox label="Remember Me"></p-checkbox>
+					</div>
+					<a class="text-muted small-2" href="user-recover.html">Forgot password?</a>
+				</div>
+				<div class="form-group">
+					<button pButton type="submit" class="ui-button ui-button-raised w-100" label="Login"></button>
+				</div>
+			</form>
+		</div>
+	</main>
+</div>

@@ -1,0 +1,67 @@
+.ui-panelmenu {
+	width: auto;
+	.ui-panelmenu-header > a {
+		border-style: solid none;
+		border-color: #efefef;
+		border-width: 1px 0px !important;
+		display: flex;
+		align-items: center;
+	}
+
+	.ui-panelmenu-header-link {
+		padding: 1em;
+		display: block;
+		text-decoration: none;
+		.ui-menuitem-text {
+			font-size: 14px;
+			font-weight: 400;
+		}
+		.ui-panelmenu-icon {
+			vertical-align: middle;
+			position: absolute;
+			right: 28px;
+			font-size: 0.8em;
+		}
+	}
+	.ui-menuitem-icon {
+		color: #627182;
+		position: absolute;
+		right: 1.7rem;
+		font-size: 16px;
+	}
+
+	> .ui-menuitem-text {
+		vertical-align: middle;
+		letter-spacing: 0.3px;
+	}
+
+	.ui-panelmenu-content {
+		border: none !important;
+		background-color: #f6f9fa !important;
+		.ui-submenu-list {
+			margin-left: 0;
+		}
+	}
+}
+.wrapper {
+	.ui-panelmenu {
+		.ui-panelmenu-icon {
+			display: none;
+		}
+	}
+	&.on {
+		.ui-menuitem-text {
+			padding-left: 50px;
+			color: #627182;
+		}
+		.ui-panelmenu {
+			.ui-panelmenu-icon {
+				display: block;
+			}
+			.ui-menuitem-icon {
+				left: 24px;
+				vertical-align: middle;
+			}
+		}
+	}
+}

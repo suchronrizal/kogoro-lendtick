@@ -1,0 +1,17 @@
+<p-blockUI [blocked]="blockedPanel"
+  ><div class="d-flex flex-column">
+    <div class="pt-8 d-flex justify-content-center">
+      <p-progressSpinner
+        [style]="{ width: '50px', height: '50px' }"
+        strokeWidth="4"
+        animationDuration=".5s"
+      ></p-progressSpinner>
+    </div>
+    <div
+      style="color: aliceblue"
+      class="d-flex align-items-center justify-content-center"
+    >
+      Loading...
+    </div>
+  </div>
+</p-blockUI>

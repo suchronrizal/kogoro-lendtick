@@ -1,0 +1,146 @@
+body .ui-multiselect {
+	background: #ffffff;
+	border: 1px solid #a6a6a6;
+	-moz-transition: border-color 0.2s, box-shadow 0.2s;
+	-o-transition: border-color 0.2s, box-shadow 0.2s;
+	-webkit-transition: border-color 0.2s, box-shadow 0.2s;
+	transition: border-color 0.2s, box-shadow 0.2s;
+	font-size: 0.9rem;
+}
+body .ui-multiselect:not(.ui-state-disabled):hover {
+	border-color: #212121;
+}
+body .ui-multiselect:not(.ui-state-disabled).ui-state-focus {
+	outline: 0 none;
+	outline-offset: 0;
+	-webkit-box-shadow: 0 0 0 0.2em #8dcdff;
+	-moz-box-shadow: 0 0 0 0.2em #8dcdff;
+	box-shadow: 0 0 0 0.2em #8dcdff;
+	border-color: #007ad9;
+}
+body .ui-multiselect .ui-multiselect-label {
+	padding: 0;
+	padding-right: 2em;
+	color: #333333;
+}
+body .ui-multiselect .ui-multiselect-label .ui-placeholder {
+	color: #666666;
+}
+body .ui-multiselect .ui-multiselect-trigger {
+	width: 2em;
+	line-height: 2em;
+	text-align: center;
+	padding: 0;
+	color: #848484;
+}
+body .ui-multiselect-panel {
+	padding: 0;
+	border: 1px solid #c8c8c8;
+	background-color: #ffffff;
+	-webkit-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+	-moz-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+	box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+}
+body .ui-multiselect-panel .ui-multiselect-header {
+	padding: 0.429em 0.857em 0.429em 0.857em;
+	border-bottom: 1px solid #eaeaea;
+	color: #333333;
+	background-color: #ffffff;
+	margin: 0;
+}
+body .ui-multiselect-panel .ui-multiselect-header .ui-multiselect-filter-container {
+	float: none;
+	width: 85%;
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 0;
+}
+body .ui-multiselect-panel .ui-multiselect-header .ui-multiselect-filter-container .ui-inputtext {
+	padding: 0.429em;
+	padding-right: 2em;
+}
+body .ui-multiselect-panel .ui-multiselect-header .ui-multiselect-filter-container .ui-multiselect-filter-icon {
+	color: $color-primary;
+	top: 50%;
+	margin-top: -0.5em;
+	right: 0.5em;
+	left: auto;
+}
+body .ui-multiselect-panel .ui-multiselect-header .ui-chkbox {
+	margin-right: 0.5em;
+	float: none;
+	vertical-align: middle;
+}
+body .ui-multiselect-panel .ui-multiselect-header .ui-multiselect-close {
+	color: #848484;
+	top: 50%;
+	margin-top: -0.5em;
+	line-height: 1;
+	-moz-transition: color 0.2s, background-color 0.2s, box-shadow 0.2s;
+	-o-transition: color 0.2s, background-color 0.2s, box-shadow 0.2s;
+	-webkit-transition: color 0.2s, background-color 0.2s, box-shadow 0.2s;
+	transition: color 0.2s, background-color 0.2s, box-shadow 0.2s;
+}
+body .ui-multiselect-panel .ui-multiselect-header .ui-multiselect-close:hover {
+	color: #333333;
+}
+body .ui-multiselect-panel .ui-multiselect-header .ui-multiselect-close:focus {
+	outline: 0 none;
+	outline-offset: 0;
+	-webkit-box-shadow: 0 0 0 0.2em $color-focus;
+	-moz-box-shadow: 0 0 0 0.2em $color-focus;
+	box-shadow: 0 0 0 0.2em $color-focus;
+}
+body .ui-multiselect-panel .ui-multiselect-items {
+	padding: 0;
+}
+body .ui-multiselect-panel .ui-multiselect-items .ui-multiselect-item {
+	margin: 0;
+	padding: 0.429em 0.857em;
+	border: 0 none;
+	color: #333333;
+	background-color: transparent;
+	-moz-transition: background-color 0.2s, box-shadow 0.2s;
+	-o-transition: background-color 0.2s, box-shadow 0.2s;
+	-webkit-transition: background-color 0.2s, box-shadow 0.2s;
+	transition: background-color 0.2s, box-shadow 0.2s;
+	-moz-border-radius: 0;
+	-webkit-border-radius: 0;
+	border-radius: 0;
+}
+body .ui-multiselect-panel .ui-multiselect-items .ui-multiselect-item.ui-state-highlight {
+	color: $color-title;
+}
+body .ui-multiselect-panel .ui-multiselect-items .ui-multiselect-item:not(.ui-state-highlight):not(.ui-state-disabled):hover {
+	color: #333333;
+	background-color: #eaeaea;
+}
+body .ui-multiselect-panel .ui-multiselect-items .ui-multiselect-item.ui-state-disabled .ui-chkbox-box {
+	cursor: auto;
+}
+body .ui-multiselect-panel .ui-multiselect-items .ui-multiselect-item.ui-state-disabled .ui-chkbox-box:hover {
+	border: 1px solid #a6a6a6;
+}
+body .ui-multiselect-panel .ui-multiselect-items .ui-multiselect-item.ui-state-disabled .ui-chkbox-box.ui-state-active:hover {
+	border-color: $color-focus;
+}
+body .ui-multiselect-panel .ui-multiselect-items .ui-multiselect-item:focus {
+	outline: 0 none;
+	outline-offset: 0;
+	-webkit-box-shadow: inset 0 0 0 0.2em $color-focus;
+	-moz-box-shadow: inset 0 0 0 0.2em $color-focus;
+	box-shadow: inset 0 0 0 0.2em $color-focus;
+}
+body .ui-multiselect-panel .ui-multiselect-items .ui-multiselect-item .ui-chkbox {
+	position: static;
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0 0.5em 0 0;
+}
+body .ui-multiselect-panel .ui-multiselect-items .ui-multiselect-item label {
+	display: inline-block;
+	vertical-align: middle;
+}
+body p-multiselect.ng-dirty.ng-invalid > .ui-multiselect {
+	border: 1px solid #a80000;
+}

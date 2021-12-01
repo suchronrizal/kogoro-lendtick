@@ -1,0 +1,85 @@
+<div class="card card-custom gutter-b">
+	<div class="card-header">
+		<div class="card-title">
+			<h5 class="card-label">Biller</h5>
+		</div>
+	</div>
+	<div class="card-body">
+		<div class="row py-2">
+			<div class="col-md-3 col-sm-12">
+				<p-dropdown styleClass="form-control" placeholder="Semua Perusahaan"></p-dropdown>
+			</div>
+			<div class="col-md-3 col-sm-12">
+				<p-dropdown styleClass="form-control" placeholder="All Status"></p-dropdown>
+			</div>
+			<div class="col-md-3 col-sm-12">
+				<p-calendar placeholder="Date Range" inputStyleClass="form-control"></p-calendar>
+			</div>
+			<div class="col-md-3 col-sm-12">
+				<p-dropdown styleClass="form-control" placeholder="All Type"></p-dropdown>
+			</div>
+		</div>
+		<div class="row pt-5">
+			<div class="col-md-12">
+				<p-table [responsive]="true" [(selection)]="selectedColumns" [value]="data" rows="25" [paginator]="true">
+					<ng-template pTemplate="header" let-columns>
+						<tr>
+							<th *ngFor="let col of selectedColumns" class="text-center">{{ col.header }}</th>
+							<th class="text-center">Options</th>
+						</tr>
+					</ng-template>
+					<ng-template pTemplate="body" let-rowData let-columns="columns">
+						<tr class="ui-selectable-row">
+							<td *ngFor="let col of selectedColumns">{{ rowData[col.field] }}</td>
+							<td class="text-center"><button pButton type="button" (click)="showDetail = true; showData(rowData)" class="ui-button-primary" icon="pi pi-cog"></button></td>
+						</tr>
+					</ng-template>
+				</p-table>
+			</div>
+		</div>
+	</div>
+</div>
+<p-dialog [(visible)]="showDetail" header="Detail Order" [style]="{ width: '50vw' }" [modal]="true" [draggable]="false" [resizable]="false">
+	<div class="form-row">
+		<div class="col-md-8 col-sm-12">
+			<table class="table table-borderless table-striped">
+				<tbody>
+					<tr>
+						<td width="25%">Nama Produk</td>
+						<td>{{ detailOrder.product_name }}</td>
+					</tr>
+					<tr>
+						<td>Nama Service</td>
+						<td>{{ detailOrder.biller_name }}</td>
+					</tr>
+					<tr>
+						<td>ID Channel</td>
+						<td>{{ detailOrder.id_channel }}</td>
+					</tr>
+					<tr>
+						<td>Harga Jual</td>
+						<td>{{ detailOrder.sell_price | number: '1.0-6' }}</td>
+					</tr>
+					<tr>
+						<td>Harga</td>
+						<td>{{ detailOrder.base_price | number: '1.0-6' }}</td>
+					</tr>
+					<tr>
+						<td>Detail Produk</td>
+						<td>{{ detailOrder.product_details }}</td>
+					</tr>
+					<tr>
+						<td>Nomor Akun</td>
+						<td>{{ detailOrder.account_number }}</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		<div class="col-md-4 col-sm-12 img-product">
+			<div class="img-product">
+				<img class="rounded" *ngIf="detailOrder.product_image_path != null" [src]="detailOrder.product_image_path" />
+				<div class="product-detail">{{ detailOrder.product_name }}</div>
+			</div>
+		</div>
+	</div>
+</p-dialog>

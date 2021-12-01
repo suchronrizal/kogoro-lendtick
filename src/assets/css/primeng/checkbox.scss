@@ -1,0 +1,53 @@
+body .ui-chkbox {
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0;
+	width: 20px;
+	height: 20px;
+}
+body .ui-chkbox .ui-chkbox-box {
+	border: 1px solid #a6a6a6;
+	background-color: #ffffff;
+	width: 20px;
+	height: 20px;
+	text-align: center;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	-moz-transition: background-color 0.2s, border-color 0.2s, box-shadow 0.2s;
+	-o-transition: background-color 0.2s, border-color 0.2s, box-shadow 0.2s;
+	-webkit-transition: background-color 0.2s, border-color 0.2s, box-shadow 0.2s;
+	transition: background-color 0.2s, border-color 0.2s, box-shadow 0.2s;
+}
+body .ui-chkbox .ui-chkbox-box:not(.ui-state-disabled):hover {
+	border-color: $color-primary-hover;
+}
+body .ui-chkbox .ui-chkbox-box.ui-state-focus {
+	outline: 0 none;
+	outline-offset: 0;
+	-webkit-box-shadow: 0 0 0 0.2em $color-focus;
+	-moz-box-shadow: 0 0 0 0.2em $color-focus;
+	box-shadow: 0 0 0 0.2em $color-focus;
+	border-color: $color-primary-hover;
+}
+body .ui-chkbox .ui-chkbox-box.ui-state-active {
+	border-color: $color-primary-hover;
+	background-color: $color-primary-hover;
+	color: #ffffff;
+}
+body .ui-chkbox .ui-chkbox-box.ui-state-active:not(.ui-state-disabled):hover {
+	border-color: $color-primary;
+	background-color: $color-primary;
+	color: #ffffff;
+}
+body .ui-chkbox .ui-chkbox-box .ui-chkbox-icon {
+	overflow: hidden;
+	position: relative;
+	font-size: 18px;
+}
+body .ui-chkbox-label {
+	margin: 0 0 0 0.5em;
+}
+body p-checkbox.ng-dirty.ng-invalid .ui-chkbox-box {
+	border: 1px solid #a80000;
+}

@@ -1,0 +1,49 @@
+<div class="card card-custom gutter-b">
+	<div class="card-header">
+		<div class="card-title">
+			<h5 class="card-label">Master Fee</h5>
+		</div>
+	</div>
+	<div class="card-body">
+		<div class="row">
+			<div class="col-md-9">
+				<button pButton (click)="displayForm = true; isEdit = false; objDetail = {}" class="ui-button ui-button-raised" label="Daftar Baru"></button>
+			</div>
+			<div class="col-md-3">
+				<input pInputText class="form-control" placeholder="Search Daftar Perusahaan" />
+			</div>
+		</div>
+		<div class="row pt-5">
+			<div class="col-md-12">
+				<p-table [responsive]="true" [columns]="columns" [value]="data" [rowHover]="true" rows="25" [paginator]="true">
+					<ng-template pTemplate="header" let-columns>
+						<tr>
+							<th class="text-center" width="10%">Options</th>
+							<th *ngFor="let col of columns" [ngClass]="{ 'w-10': col.header == 'ID' }" class="text-center">{{ col.header }}</th>
+						</tr>
+					</ng-template>
+					<ng-template pTemplate="body" let-rowData let-i="rowIndex" let-columns="columns">
+						<tr class="ui-selectable-row">
+							<td class="text-center"><button pButton type="button" (click)="displayForm = true; showDetail(rowData)" class="ui-button-primary" icon="pi pi-cog"></button></td>
+							<td *ngFor="let col of columns" [ngClass]="{ 'text-center': col.field == 'id_fee' || col.field == 'unit_value' }">{{ rowData[col.field] }}</td>
+						</tr>
+					</ng-template>
+				</p-table>
+			</div>
+		</div>
+	</div>
+</div>
+<p-dialog [(visible)]="displayForm" appendTo="body" header="Form Daftar Perusahaan" [style]="{ width: '30vw' }" [modal]="true" [draggable]="false" [resizable]="false">
+	<div class="field">
+		<label for="documentName">Fee Name</label>
+		<input pInputText class="form-control" [(ngModel)]="objDetail.fee_name" type="text" />
+	</div>
+	<div class="field">
+		<label for="unitValue">Unit Value</label>
+		<p-dropdown [options]="arrUnitValue" appendTo="body" [(ngModel)]="objDetail.unit_value" styleClass="form-control"></p-dropdown>
+	</div>
+	<p-footer>
+		<button type="button" pButton icon="pi pi-check" (click)="displayForm = false" [label]="isEdit ? 'Update' : 'Create'"></button>
+		<button type="button" pButton icon="pi pi-times" (click)="displayForm = false" label="No" class="ui-button-secondary"></button>
+	</p-footer>
+</p-dialog>

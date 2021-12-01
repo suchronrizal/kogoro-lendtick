@@ -1,0 +1,51 @@
+<span *ngIf="isShow">
+	<div class="form-group col-6">
+		<label for="typeDocument">Tipe Dokument</label>
+		<p-dropdown styleClass="form-control"></p-dropdown>
+	</div>
+	<div class="form-group col-6">
+		<label for="typeDocument">Unggah Dokument</label>
+		<div><p-fileUpload label="ngahil" mode="basic" name="demo[]" class="ui-button-secondary" accept="image/*" maxFileSize="1000000"></p-fileUpload></div>
+	</div>
+	<div class="pt-4">
+		<button pButton label="Tambah Document" icon="pi pi-upload" class="ui-button-primary ui-button-raised"></button>
+	</div>
+</span>
+<div class="row py-4">
+	<div class="col-md-4">
+		<div class="card text-center shadow-1 hover-shadow-9">
+			<div class="card-img-top text-white bg-img h-200 d-flex align-items-center" style="background-image: url(./assets/img/11.jpg)"></div>
+			<div class="card-body py-6">
+				<p>
+					Document Type : KTP <small>* Wajib</small><br />
+					Workflow Status : DOCSTS01
+				</p>
+				<br />
+				<button pButton label="Zoom" class="ui-button-raised ui-button-secondary btn-small p-0 mr-2" (click)="op1.show($event)"></button>
+				<button pButton label="Ubah" class="ui-button-raised ui-button-secondary btn-small p-0 mr-2"></button>
+				<button pButton label="Hapus" class="ui-button-raised ui-button-danger btn-small p-0"></button>
+			</div>
+		</div>
+	</div>
+
+	<div class="col-md-4">
+		<div class="card text-center shadow-1 hover-shadow-9">
+			<div class="card-img-top text-white bg-img h-200 d-flex align-items-center" style="background-image: url(./assets/img/11.jpg)"></div>
+			<div class="card-body py-6">
+				<p>
+					Document Type : KTP <small>* Wajib</small><br />
+					Workflow Status : DOCSTS01
+				</p>
+				<br />
+				<button pButton label="Zoom" class="ui-button-raised ui-button-secondary btn-small p-0 mr-2"></button>
+				<button pButton label="Ubah" class="ui-button-raised ui-button-secondary btn-small p-0 mr-2"></button>
+				<button pButton label="Hapus" class="ui-button-raised ui-button-danger btn-small p-0"></button>
+			</div>
+		</div>
+	</div>
+</div>
+<p-overlayPanel #op1 appendTo="body">
+	<ng-template pTemplate>
+		<img src="./assets/img/11.jpg" width="500px" alt="KTP" />
+	</ng-template>
+</p-overlayPanel>
